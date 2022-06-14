@@ -1,0 +1,46 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Wallpoet', cursive; */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px
+}
+
+.navbar-brand {
+    font-family: 'Wallpoet', sans-serif;
+    color: #fd9116; 
+    font-size: 28px; 
+    transition-duration: .5s;
+}
+
+.navbar-brand:hover {
+    color: #ffc17a; 
+}
+
+.nav-link {
+    color: white; 
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    transition-duration: .5s;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.6); 
+}
+
+.navbar-toggler {
+    color: white; 
+    border-color: transparent;
+}
+
+/* .navbar-toggler-icon {
+    background-image: url("../src/assets/images/droplet.png.crdownload");;
+} */
+
+
+
