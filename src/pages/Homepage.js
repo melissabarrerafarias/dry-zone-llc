@@ -29,6 +29,11 @@ function Homepage() {
             </div>
         </nav>
                 </div>
+
+                <div className="container2"> 
+                    <p className="hero-title">{"WATERPROOFING &"}</p>
+                    <p className="hero-title">{"CONCRETE COATINGS"}</p>
+                </div>
             </div>
         </main>
     );

@@ -29,11 +29,29 @@
     background-size: cover;
     /* Needed to position the navbar */
     position: relative;
-  }
+}
 
-  .container {
+.container {
     position: absolute;
     /* margin: 20px; */
     min-width: 100%;
     padding: 0
-  }
+}
+
+.container2 {
+    position: absolute;
+    top: 40%;
+    left: 60%
+}
+
+.hero-title {
+    color: white;
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 45px;
+    /* letter-spacing: 2px; */
+    font-weight: bold;
+}
+
+.container2 p {
+    margin-bottom: 0px;
+}
