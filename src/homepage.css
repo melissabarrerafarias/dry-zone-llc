@@ -41,12 +41,13 @@
 .container2 {
     position: absolute;
     top: 40%;
-    left: 60%
+    left: 55%;
+    /* width: 100%; */
 }
 
 .hero-title {
     color: white;
-    font-family: 'Work Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
     font-size: 45px;
     /* letter-spacing: 2px; */
     font-weight: bold;
@@ -54,4 +55,69 @@
 
 .container2 p {
     margin-bottom: 0px;
+}
+
+.hero-btns {
+    float: right; 
+    /* margin-right: 25px */
+}
+
+.hero-btns a {
+    text-decoration: none;
+    color: white
+}
+
+.hero-btn {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin: 8px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+.hbtn1 {
+    background-color: rgba(253, 145, 22, 0.85);
+    transition-duration: 1.5s;
+}
+
+.hbtn2 {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding-right: 18px;
+    padding-left: 18px;
+    transition-duration: 1.5s
+}
+
+.hbtn1 a {
+    color: black;
+    transition-duration: 1.5s;
+}
+
+.hbtn2 a {
+    transition-duration: 1.5s;
+}
+
+.hbtn1:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    /* color: white */
+}
+
+.hbtn2:hover {
+    background-color: rgba(253, 145, 22, 0.85);
+    /* color: black */
+}
+
+.hbtn1 a:hover {
+    color: white;
+}
+
+.hbtn2 a:hover {
+    color: black;
 }

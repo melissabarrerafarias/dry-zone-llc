@@ -14,12 +14,12 @@ font-family: 'Work Sans', sans-serif; */
 .navbar-brand {
     font-family: 'Wallpoet', sans-serif;
     color: #fd9116;
-    font-size: 28px;
+    font-size: 35px;
     transition-duration: .5s;
 }
 
 .navbar-brand:hover {
-    color: #ffc17a;
+    color: #ffa33a;
 }
 
 .nav-link {
