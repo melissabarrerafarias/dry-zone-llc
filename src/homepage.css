@@ -18,6 +18,10 @@
     opacity: 98%;
 } */
 
+#homepage-main {
+    background-color: #202020;
+}
+
 .bg-img {
     /* The image used */
     background-image: url("../src/assets/images/water-drops.jpg");
@@ -49,7 +53,6 @@
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-size: 45px;
-    /* letter-spacing: 2px; */
     font-weight: bold;
 }
 
@@ -122,6 +125,102 @@
     color: black;
 }
 
+.worker-div {
+    display: flex;
+    justify-content: end;
+}
+
+.worker-img {
+    max-width: 85%;
+    margin-top: 30%;
+}
+
+/* .what-i-div {
+    display: flex; 
+    justify-content: center;
+} */
+
+#what-i-do h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.do-expln {
+    display: flex;
+    justify-content: center;
+}
+
+#what-i-do p {
+    color: white;
+    max-width: 60%;
+    font-size: 18px;
+}
+
+/* .do-examples {
+    display: flex;
+    
+} */
+
+.do-examples ul li {
+    color: #D79116;
+    font-size: 18px;
+    margin-left: 19%;
+    padding: 10px;
+}
+
+.do-examples ul li span {
+    color: white
+}
+
+.read-more {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5% */
+}
+
+.read-more button {
+    background-color: #D79116; 
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    padding: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border-radius: 10px;
+}
+
+#what-people-are-saying h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#what-people-are-saying .col-md-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.quote {
+    background-color: #1A1A1A;
+    width: 80%;
+    height: 90%;
+    padding: 40px; 
+    color: white; 
+    font-family: 'Work Sans', sans-serif; 
+    text-align: center;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+    /* fixes overflow on page*/
+}
 
 /* media queries */
 @media (max-width: 1320.98px) {

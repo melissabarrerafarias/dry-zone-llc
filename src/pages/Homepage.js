@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 // import rainDropImg from '../assets/images/water-drops.jpg'
+import constructionWorker from '../assets/images/construction-worker.jpg';
 
 function Homepage() {
     return (
-        <main>
+        <main id="homepage-main">
             {/* <div className="hero">
                 <img src={rainDropImg} className="hero-img"></img>
             </div> */}
+            {/* hero */}
             <div class="bg-img">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg">
@@ -41,6 +43,59 @@ function Homepage() {
                     </div>
                 </Fade>
             </div>
+            {/* main page */}
+            <section id="what-i-do" className="row">
+                <div className="col-md-6 worker-div">
+                    <img src={constructionWorker} className="worker-img"></img>
+                </div>
+                <div className="col-md-6">
+                    <h1>What I Do</h1>
+                    <div className="do-expln">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div className="do-examples">
+                        <ul>
+                            <li><span>Waterproofing basements</span></li>
+                            <li><span>Applying Cold Membrane on garage floors</span></li>
+                            <li><span>Sealing gutters with glue</span></li>
+                        </ul>
+                    </div>
+                    <div className="read-more">
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="what-people-are-saying">
+                <h1>What People Are Saying</h1>
+                <div className="row">
+                    <div className="col-md-4">
+                        <p className="quote">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam -Bob
+                        </p>
+                    </div>
+
+                    <div className="col-md-4">
+                        <p className="quote">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. - Samuel
+                        </p>
+                    </div>
+
+
+                    <div className="col-md-4">
+                        <p className="quote">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. - Veronica
+                        </p>
+                    </div>
+
+                </div>
+            </section>
         </main>
     );
 }
