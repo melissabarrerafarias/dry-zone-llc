@@ -58,7 +58,7 @@
 }
 
 .hero-btns {
-    float: right; 
+    float: right;
     /* margin-right: 25px */
 }
 
@@ -120,4 +120,130 @@
 
 .hbtn2 a:hover {
     color: black;
+}
+
+
+/* media queries */
+@media (max-width: 1320.98px) {
+    .bg-img {
+        height: 750px;
+    }
+
+    .container2 {
+        left: 45%;
+    }
+}
+
+@media (max-width: 1100.98px) {
+    .bg-img {
+        height: 750px;
+    }
+
+    .container2 {
+        left: 45%;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .bg-img {
+        height: 600px;
+    }
+
+    .container2 {
+        left: 48%;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-btn {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-img {
+        height: 500px;
+    }
+
+    .container2 {
+        left: 48%;
+        top: 42%
+    }
+
+    .hero-title {
+        font-size: 25px;
+    }
+
+    .hero-btn {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 630px) {
+    .bg-img {
+        height: 400px;
+    }
+
+    .container2 {
+        left: 45%;
+        top: 42%
+    }
+
+    .hero-title {
+        font-size: 23px;
+    }
+
+    .hero-btn {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .bg-img {
+        height: 350px;
+    }
+
+    .container2 {
+        left: 45%;
+        top: 48%
+    }
+
+    .hero-title {
+        font-size: 20px;
+    }
+
+    .hero-btn {
+        font-size: 9px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 485px) {
+    .bg-img {
+        height: 300px;
+    }
+
+    .container2 {
+        left: 45%;
+        top: 48%
+    }
+
+    .hero-title {
+        font-size: 15px;
+    }
+
+    .hero-btn {
+        font-size: 8px;
+        margin-top: 10px;
+        padding: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }

@@ -39,6 +39,14 @@ font-family: 'Work Sans', sans-serif; */
     border-color: transparent;
 }
 
-/* .navbar-toggler-icon {
-    background-image: url("../src/assets/images/droplet.png.crdownload");;
-} */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 550px) {
+    .navbar-brand {
+        font-size: 20px
+    }
+}
