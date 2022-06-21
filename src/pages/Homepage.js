@@ -63,7 +63,7 @@ function Homepage() {
                         </ul>
                     </div>
                     <div className="read-more">
-                        <button>Read More</button>
+                        <button><a href="/services">Read More</a></button>
                     </div>
                 </div>
             </section>
@@ -94,6 +94,32 @@ function Homepage() {
                         </p>
                     </div>
 
+                </div>
+            </section>
+
+            <section id="contact-me">
+                <h1>Contact Me</h1>
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="contact-area">
+                            <form>
+                            <p>Have a project in mind? Describe what you need and I'll get back to you.</p>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                                </div>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="email" placeholder="Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                                </div>
+                                <div class="input-group input-group-sm mb-3">
+                                    <textarea type="text" placeholder="Project Description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div className="col-md-6">
+
+                    </div>
                 </div>
             </section>
         </main>

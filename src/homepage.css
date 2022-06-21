@@ -152,6 +152,7 @@
 .do-expln {
     display: flex;
     justify-content: center;
+    font-family: 'Work Sans', sans-serif; 
 }
 
 #what-i-do p {
@@ -170,6 +171,7 @@
     font-size: 18px;
     margin-left: 19%;
     padding: 10px;
+    font-family: 'Work Sans', sans-serif; 
 }
 
 .do-examples ul li span {
@@ -190,6 +192,11 @@
     padding-left: 10px; 
     padding-right: 10px; 
     border-radius: 10px;
+}
+
+.read-more button a {
+    text-decoration: none;
+    color: black
 }
 
 #what-people-are-saying h1 {
@@ -216,6 +223,46 @@
     font-family: 'Work Sans', sans-serif; 
     text-align: center;
 }
+
+#contact-me h1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#contact-me p {
+    text-align: center;
+    color: white; 
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+.contact-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%
+}
+
+#contact-me form {
+    width: 70%
+}
+
+#contact-me form input {
+    height: 40px
+}
+
+#contact-me textarea {
+    height: 150px
+}
+
+
+
+/* .contact-area {
+    max-width: 50%
+} */
 
 .row {
     --bs-gutter-x: 0rem;
