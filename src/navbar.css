@@ -11,6 +11,10 @@ font-family: 'Work Sans', sans-serif; */
     padding: 0px
 }
 
+#about .navbar, #services .navbar{
+    background-color: #171717;
+}
+
 .navbar-brand {
     font-family: 'Wallpoet', sans-serif;
     color: #fd9116;

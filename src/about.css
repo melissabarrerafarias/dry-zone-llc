@@ -1,0 +1,25 @@
+#about {
+    background-color: #202020;
+    padding-bottom: 30px
+}
+
+#abt-dzone h1 {
+    color: white; 
+    font-family: 'Kanit', sans-serif;
+    margin-top: 5%; 
+    margin-left: 5%; 
+    text-decoration: underline;
+}
+
+#abt-dzone .row {
+    margin-top: 10%
+}
+
+.owner-img {
+    display: flex;
+    justify-content: center;
+}
+
+#abt-dzone img {
+    width: 70%
+}
