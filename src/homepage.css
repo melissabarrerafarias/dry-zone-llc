@@ -224,6 +224,10 @@
     text-align: center;
 }
 
+#contact-me {
+    padding-bottom: 10%
+}
+
 #contact-me h1 {
     color: white;
     font-family: 'Kanit', sans-serif;
@@ -266,7 +270,7 @@
     text-align: center;
     width: 70%; 
     height: 80%; 
-    background-color: #1A1A1A;
+    background-color: #171717;
     margin: auto;
     margin-top: 10%;
     /* margin-right: 25% */
