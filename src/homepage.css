@@ -233,7 +233,7 @@
     text-align: center;
 }
 
-#contact-me p {
+.contact-area p {
     text-align: center;
     color: white; 
     font-size: 18px;
@@ -251,14 +251,70 @@
 }
 
 #contact-me form input {
-    height: 40px
+    height: 40px; 
+    border: 2px solid #202020;
+    border-bottom: 3px solid #D79116;
 }
 
 #contact-me textarea {
-    height: 150px
+    height: 150px; 
+    border: 2px solid #202020;
+    border-bottom: 3px solid #D79116;
 }
 
+.contact-info {
+    text-align: center;
+    width: 70%; 
+    height: 80%; 
+    background-color: #1A1A1A;
+    margin: auto;
+    margin-top: 10%;
+    /* margin-right: 25% */
+}
 
+.contact-info h2 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 35px;
+    text-decoration: underline #D79116;
+    text-underline-offset: 6px;
+    padding-top: 5%; 
+}
+
+.contact-info a {
+    font-size: 30px;
+    color: white !important; 
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+}
+
+.call {
+    margin-top: 5%
+}
+
+.email {
+    margin-top: 5%;
+}
+
+.contact-icons {
+    margin-top: 5%
+}
+
+.contact-icons a {
+    margin: 5%; 
+    font-size: 40px; 
+    transition-duration: 1s;
+}
+
+.contact-icons a i {
+    text-decoration: underline #D79116;
+    text-underline-offset: 6px;
+    transition-duration: .5s;
+}
+
+.contact-icons a i:hover {
+    color:rgb(255, 169, 71)
+}
 
 /* .contact-area {
     max-width: 50%

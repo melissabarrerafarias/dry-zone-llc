@@ -19,7 +19,7 @@ function Homepage() {
                         <div class="container-fluid">
                             <a class="navbar-brand" href="/">DryZone</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span> {/*CHANGE ICON LATER*/}
+                                <span><i class="fa-solid fa-circle-chevron-down"></i></span> {/*CHANGE ICON LATER*/}
                             </button>
                             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                                 <div class="navbar-nav ">
@@ -103,7 +103,7 @@ function Homepage() {
                     <div className="col-md-6">
                         <div className="contact-area">
                             <form>
-                            <p>Have a project in mind? Describe what you need and I'll get back to you.</p>
+                                <p>Have a project in mind? Describe what you need and I'll get back to you.</p>
                                 <div class="input-group input-group-sm mb-3">
                                     <input type="text" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
@@ -118,7 +118,23 @@ function Homepage() {
                     </div>
 
                     <div className="col-md-6">
-
+                        <div className="contact-info">
+                            <h2>CALL, TEXT, OR EMAIL</h2>
+                            <div className="call">
+                                <a href="tel:390-890-1059">(390) 890-1059</a>
+                            </div>
+                            <div className="email">
+                                <a href="mailto:silverio@dzwcc.com">silverio@dzwcc.com</a>
+                            </div>
+                            <div className="contact-icons">
+                                <a href="tel:390-890-1059">
+                                    <i class="fa-solid fa-phone"></i>
+                                </a>
+                                <a href="mailto:silverio@dzwcc.com">
+                                    <i class="fa-solid fa-envelope-circle-check"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
