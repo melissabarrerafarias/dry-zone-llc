@@ -3,7 +3,7 @@
     padding-bottom: 30px
 }
 
-#abt-dzone h1 {
+/* #abt-dzone h1 {
     color: white; 
     font-family: 'Kanit', sans-serif;
     margin-top: 5%; 
@@ -22,4 +22,41 @@
 
 #abt-dzone img {
     width: 70%
+} */
+
+.about-hero {
+    background-image: url("./assets/images/solo.jpg"); 
+    height: 700px;
+    min-width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.abt-hero-title {
+    position: absolute;
+    top: 50%; 
+    left: 40%;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color: white
+}
+
+#about-paragraphs {
+    color: white; 
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif; 
+    width: 40%; 
+    margin: auto; 
+    margin-top: 10%; 
+    margin-bottom: 10%
+}
+
+#about-paragraphs h1 {
+    color: #FD9116; 
+    margin-bottom: 2%;
+    margin-top: 10%
 }
