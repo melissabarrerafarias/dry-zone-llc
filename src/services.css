@@ -17,6 +17,16 @@
     margin-top: 2%
 }
 
+.services-img img {
+    opacity: 50%; 
+    transition-duration: 1s;
+}
+
+.services-img img:hover { /* change this on smaller screens */ 
+    opacity: 100%
+}
+
+
 .services-img area {
     cursor: pointer;
 }
@@ -58,6 +68,72 @@
     border-radius: 15px 15px 15px;
 }
 
+/* #in-depth-services {
+    display: flex;
+    justify-content: center;
+} */
+
+#in-depth-services h1 {
+    color: white; 
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-top: 25px; 
+    text-align: center;
+}
+
+.services-page-nav {
+    /* text-align: center; */
+    margin-top: 20px;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif
+}
+
+.services-page-nav ul {
+    list-style-type: none;
+    background-color: #171717;
+    padding: 20px; 
+    padding-right: 12%; 
+    padding-left: 12%;
+    border-radius: 5px;
+}
+
+.services-page-nav ul li a {
+    color: white
+}
+
+#in-depth-services h2 {
+    color: white; 
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-top: 15%; 
+    text-align: center;
+    text-decoration: underline;
+}
+
+.services-detail-left {
+    display: flex;
+    justify-content: end;
+}
+
+.services-detail-right {
+    color: white; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    max-width: 30%;
+    margin-left: 2%; 
+    /* margin-top: 5%; */
+}
+
+#gutters img {
+    max-width: 70%;
+}
+
+#roof img {
+    max-width: 70%;
+}
 /* .services-img-title {
     position: absolute;
     top: 52%; 

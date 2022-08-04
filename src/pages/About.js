@@ -37,7 +37,7 @@ function About() {
                         senior supervisor and completed various freelance jobs on his own time. Every project being unique and
                         presenting its own challenges, Silverio overcame them with innovative solutions. Now living in
                         the Olympia, Washington region and confident in his abilities to provide quality results, he
-                        began his own company known as Dry Zone LLC. </p>
+                        began his own company known as Dry Zone Waterproofing and Concrete Coatings LLC. </p>
 
                     <h1>Mission</h1>
                     <p>Big or small jobs, Dry Zone LLC promises to deliver lasting quality results with particular attention to detail.
