@@ -17,6 +17,14 @@
     margin-top: 2%
 }
 
+.services-img area {
+    cursor: pointer; 
+}
+
+.modal-img {
+    max-width: 100%;
+}
+
 /* .services-img-title {
     position: absolute;
     top: 52%; 
