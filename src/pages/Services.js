@@ -2,8 +2,10 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Fade from 'react-reveal/Fade';
 import '../services.css';
-import servicesImg from '../assets/images/silverio-services.jpg'; 
+import servicesImg from '../assets/images/silverio-services.jpg';
 import gutterExample from '../assets/images/gutter-example.jpg';
+import roofExample from '../assets/images/roof-example.jpg';
+import basementExample from '../assets/images/basement-example.jpg'; 
 
 function Services() {
 
@@ -15,8 +17,9 @@ function Services() {
                     <img src={servicesImg} usemap="#workmap" />
 
                     <map name="workmap">
-                        <area shape="circle" coords="272, 166, 15" alt="Computer" data-bs-toggle="modal" data-bs-target="#gutter" />
-                        <area shape="circle" coords="275, 240, 15" alt="Phone" data-bs-toggle="modal" data-bs-target="#roof" />
+                        <area shape="circle" coords="272, 167, 20" alt="Computer" data-bs-toggle="modal" data-bs-target="#gutter" />
+                        <area shape="circle" coords="275, 240, 20" alt="Phone" data-bs-toggle="modal" data-bs-target="#roof" />
+                        <area shape="circle" coords="388, 390, 20" alt="Phone" data-bs-toggle="modal" data-bs-target="#basement" />
                         {/* <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.instagram.com/" /> */}
                     </map>
                     {/* <div className="services-img-title">
@@ -36,14 +39,11 @@ function Services() {
                             <div class="modal-body">
                                 Here is the gutter thing
                                 <img src={gutterExample} className="modal-img"></img>
-                                Blah Blah Blah more gutters. If you need this call me thanks. 
-                                Blah Blah Blah more gutters. If you need this call me thanks. 
-                                Blah Blah Blah more gutters. If you need this call me thanks. 
-                                Blah Blah Blah more gutters. If you need this call me thanks. 
-                                Blah Blah Blah more gutters. If you need this call me thanks. 
-                                Blah Blah Blah more gutters. If you need this call me thanks. 
+                                <p>Blah Blah Blah more gutters. If you need this call me thanks.
+                                    Blah Blah Blah more gutters. If you need this call me thanks.
+                                    Blah Blah Blah more gutters. If you need this call me thanks.</p>
+                                <a href="/about">Learn More</a>
                             </div>
-                            <a href="/about">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -57,9 +57,26 @@ function Services() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Here is the roof thing
+                                <p>Here is the roof thing</p>
+                                <img src={roofExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
                             </div>
-                            <a href="/">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="basement" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Here is the basement thing</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
