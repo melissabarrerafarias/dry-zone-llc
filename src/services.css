@@ -1,0 +1,33 @@
+#services {
+    background-color: #202020;
+    padding-bottom: 30px
+}
+
+.services-img {
+    /* background-image: url("./assets/images/silverio-services.jpg");  */
+    height: 700px;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Needed to position the navbar */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2%
+}
+
+/* .services-img-title {
+    position: absolute;
+    top: 52%; 
+    left: 37%;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: black;  */
+    /* background-color: white;  */
+    /* padding: 10px */
+/* } */
+
+/* .services-img-title p {
+    padding: 2px
+} */
