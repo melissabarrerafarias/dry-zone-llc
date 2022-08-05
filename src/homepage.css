@@ -338,6 +338,20 @@
     .container2 {
         left: 45%;
     }
+
+    .worker-img {
+        max-width: 90%;
+        margin-top: 30%;
+        max-height: 400px;
+    }
+
+    .quote {
+        width: 90%;
+    }
+
+    .contact-info {
+        width: 80%
+    }
 }
 
 @media (max-width: 1100.98px) {
@@ -351,6 +365,21 @@
 
     .hero-title {
         font-size: 40px;
+    }
+
+    .worker-img {
+        max-width: 100%;
+        margin-top: 40%;
+        max-height: 300px;
+    }
+    
+    .contact-info {
+        width: 90%; 
+        height: 90%
+    }
+
+    #contact-me form {
+        width: 80%
     }
 }
 
@@ -370,9 +399,55 @@
     .hero-btn {
         font-size: 15px;
     }
+
+    .worker-img {
+        max-width: 90%;
+        margin-top: 50%;
+        max-height: 250px;
+    }
+
+    #what-i-do h1 {
+        font-size: 35px; 
+    }
+
+    #what-i-do p {
+        font-size: 16px;
+    }
+
+    .do-examples ul li {
+        font-size: 16px
+    }
+
+    .read-more button {
+        font-size: 18px
+    }
+
+    #what-people-are-saying h1 {
+        font-size: 35px;
+    }
+
+    .quote {
+        text-align: start;
+    }
+
+    #contact-me h1 {
+        font-size: 35px
+    }
+
+    .contact-info h2 {
+        font-size: 30px
+    }
+
+    .contact-info a {
+        font-size: 28px;
+    }
+
+    .call {
+        margin-top: 15%;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .bg-img {
         height: 500px;
     }
@@ -387,7 +462,47 @@
     }
 
     .hero-btn {
-        font-size: 10px;
+        font-size: 14px;
+    }
+
+    .worker-img {
+        max-width: 70%;
+        margin-top: 20%;
+        max-height: 100%;
+    }
+
+    .worker-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    #what-i-do h1 {
+        margin-top: 10%
+    }
+
+    #what-people-are-saying h1 {
+        margin-top: 20%
+    }
+
+    .quote {
+        width: 60%;
+    }
+
+    #contact-me form {
+        width: 60%;
+    }
+
+    .contact-info {
+        width: 60%;
+        height: 90%;
+    }
+
+    .call {
+        margin-top: 5%;
+    }
+
+    #contact-me {
+        padding-bottom: 20%
     }
 }
 
@@ -406,8 +521,20 @@
     }
 
     .hero-btn {
-        font-size: 10px;
+        font-size: 14px;
         margin-top: 20px;
+    }
+
+    .contact-info {
+        width: 70%;
+    }
+
+    .contact-info h2 {
+        font-size: 25px;
+    }
+
+    .contact-info a {
+        font-size: 25px;
     }
 }
 
@@ -426,8 +553,16 @@
     }
 
     .hero-btn {
-        font-size: 9px;
+        font-size: 12px;
         margin-top: 15px;
+    }
+
+    #what-i-do p {
+        text-align: center;
+    }
+
+    .quote {
+        font-size: 16px;
     }
 }
 
@@ -446,10 +581,51 @@
     }
 
     .hero-btn {
-        font-size: 8px;
+        font-size: 10px;
         margin-top: 10px;
         padding: 8px;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    #what-i-do h1 {
+        font-size: 30px
+    }
+
+    #what-i-do p {
+        font-size: 14px;
+    }
+
+    .do-examples ul li {
+        font-size: 14px
+    }
+
+    .read-more button {
+        font-size: 16px;
+    }
+
+    #what-people-are-saying h1 {
+        font-size: 30px
+    }
+
+    .quote {
+        font-size: 14px;
+    } 
+
+    #contact-me h1 {
+        font-size: 30px; 
+        margin-top: 20%;
+    }
+
+    .contact-area p {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        width: 80%;
+    }
+
+    #contact-me form {
+        width: 70%;
     }
 }
