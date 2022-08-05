@@ -428,6 +428,7 @@
 
     .quote {
         text-align: start;
+        font-size: 14px;
     }
 
     #contact-me h1 {
@@ -627,5 +628,20 @@
 
     #contact-me form {
         width: 70%;
+    }
+}
+
+
+@media (max-width: 375.98px) {
+    .quote {
+        width: 80%;
+    }
+
+    .contact-info h2 {
+        font-size: 20px;
+    }
+
+    .contact-info a {
+        font-size: 20px;
     }
 }
