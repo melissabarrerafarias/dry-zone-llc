@@ -60,3 +60,102 @@
     margin-bottom: 2%;
     margin-top: 10%
 }
+
+
+@media (max-width: 1100.98px) {
+    .abt-hero-title {
+        left: 35%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .about-hero {
+        height: 500px
+    }
+
+    .abt-hero-title {
+        left: 33%;
+    }
+
+    #about-paragraphs {
+        width: 50%; 
+    }
+}
+
+@media (max-width: 767px) {
+    .abt-hero-title {
+        left: 30%;
+    }
+
+    .about-hero {
+        height: 400px
+    }
+
+    #about-paragraphs {
+        width: 60%; 
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 720px) {
+    .abt-hero-title {
+        left: 32%;
+        font-size: 25px 
+    }
+
+    .about-hero {
+        height: 350px
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    #about-paragraphs {
+        width: 60%; 
+        font-size: 14px;
+    }
+
+    .abt-hero-title {
+        left: 32%;
+        font-size: 20px 
+    }
+
+    .about-hero {
+        height: 300px
+    }
+}
+
+@media (max-width: 485px) {
+    #about-paragraphs {
+        width: 70%; 
+        font-size: 12px;
+    }
+
+    .abt-hero-title {
+        left: 23%;
+    }
+
+    .about-hero {
+        height: 250px
+    }
+}
+
+@media (max-width: 375.98px) {
+    #about-paragraphs {
+        width: 70%; 
+        font-size: 12px;
+    }
+
+    .abt-hero-title {
+        left: 25%;
+        font-size: 18px
+    }
+
+    .about-hero {
+        height: 200px
+    }
+
+    #about-paragraphs h1 {
+        font-size: 25px;
+    }
+}
