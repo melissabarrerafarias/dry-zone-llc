@@ -26,7 +26,7 @@ function Homepage() {
                                     <a class="nav-link" aria-current="page" href="/">Home</a>
                                     <a class="nav-link" href="/about">About</a>
                                     <a class="nav-link" href="/services">Services</a>
-                                    <a class="nav-link" href="/#contact-me">Contact</a>
+                                    <a class="nav-link" href="#contact-me">Contact</a>
                                 </div>
                             </div>
                         </div>
@@ -37,8 +37,8 @@ function Homepage() {
                         <p className="hero-title">{"WATERPROOFING &"}</p>
                         <p className="hero-title">{"CONCRETE COATINGS LLC"}</p>
                         <div className="hero-btns">
-                            <button className="hero-btn hbtn1"><Link to="/#contact-me">Contact</Link></button>
-                            <button className="hero-btn hbtn2"><Link to="/about">About</Link></button>
+                            <button className="hero-btn hbtn1"><a href="#contact-me">Contact</a></button>
+                            <button className="hero-btn hbtn2"><a href="/about">About</a></button>
                         </div>
                     </div>
                 </Fade>
