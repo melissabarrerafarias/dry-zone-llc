@@ -18,13 +18,13 @@
 }
 
 .services-img img {
-    opacity: 50%; 
+    /* opacity: 50%;  */
     transition-duration: 1s;
 }
 
-.services-img img:hover { /* change this on smaller screens */ 
+/* .services-img img:hover { 
     opacity: 100%
-}
+} */
 
 
 .services-img area {

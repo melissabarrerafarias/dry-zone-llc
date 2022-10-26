@@ -86,11 +86,14 @@ function Services() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Here is the gutter thing
+                                Lorem Ipsum
                                 <img src={gutterExample} className="modal-img"></img>
-                                <p>Blah Blah Blah more gutters. If you need this call me thanks.
-                                    Blah Blah Blah more gutters. If you need this call me thanks.
-                                    Blah Blah Blah more gutters. If you need this call me thanks.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irur
+                                     e dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                       deserunt mollit anim id est laborum</p>
                                 <a href="#gutters">Learn More</a>
                             </div>
                         </div>
@@ -106,7 +109,7 @@ function Services() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>Here is the roof thing</p>
+                                <p>Lorem Ipsum</p>
                                 <img src={roofExample} className="modal-img"></img>
                                 <a href="#roof">Learn More</a>
                             </div>
@@ -122,7 +125,7 @@ function Services() {
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>Here is the basement thing</p>
+                                <p>Lorem Ipsum</p>
                                 <img src={basementExample} className="modal-img"></img>
                                 <a href="/">Learn More</a>
                             </div>
