@@ -74,34 +74,42 @@
 } */
 
 #in-depth-services h1 {
-    color: white; 
+    color: black; 
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
     margin-top: 25px; 
     text-align: center;
 }
 
+#in-depth-services {
+    display: flex;
+    justify-content: center;
+}
+
 .services-page-nav {
     /* text-align: center; */
     margin-top: 20px;
-    color: white; 
-    display: flex;
-    justify-content: center;
+    color: black; 
     font-size: 25px;
-    font-family: 'Kanit', sans-serif
+    font-family: 'Kanit', sans-serif; 
+    /* text-align: center; */
+    background-image: url(./assets/images/white-wall.avif);
+    max-width: 50%;
 }
 
 .services-page-nav ul {
     list-style-type: none;
-    background-color: #171717;
-    padding: 20px; 
-    padding-right: 12%; 
-    padding-left: 12%;
-    border-radius: 5px;
+    /* padding: 20px;  */
+    /* padding-right: 8%; 
+    padding-left: 8%; */
+    border-radius: 2px;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
 }
 
 .services-page-nav ul li a {
-    color: white
+    color: black
 }
 
 #in-depth-services h2 {
@@ -119,21 +127,92 @@
 }
 
 .services-detail-right {
-    color: white; 
-    font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
+    color: black; 
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
     max-width: 30%;
     margin-left: 2%; 
-    /* margin-top: 5%; */
+    background-image: url(./assets/images/white-wall.avif);
 }
 
-#gutters img {
+.services-detail-right p {
+    padding: 20px
+}
+
+#decks-srvs div {
+    display: flex;
+    justify-content: center;
+}
+
+#showerpans-srvs div {
+    display: flex;
+    justify-content: center;
+}
+
+/* .deck-description {
+    background-image: url(./assets/images/white-wall.avif);
+} */
+
+.srvs-center-description p {
+    color: black; 
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    max-width: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+    padding: 20px;
+    background-image: url(./assets/images/white-wall.avif)
+}
+
+#showerpans-srvs p {
+    max-width: 40%;
+}
+
+.services-detail-right ul {
+    margin-top: 40px
+}
+
+#windowanddooropening-srvs img {
+    max-width: 60%;
+}
+
+#windowanddoorpans-srvs img {
     max-width: 70%;
 }
 
-#roof img {
+#retaining-walls-srvs img {
     max-width: 70%;
 }
+
+#decks-srvs img {
+    max-width: 40%;
+}
+
+#mudsill-srvs img {
+    max-width: 80%;
+}
+
+#planters-srvs img {
+    max-width: 80%;
+}
+
+
+#showerpans-srvs img {
+    max-width: 40%;
+}
+
+#liquidAppliedFlashings-srvs img {
+    max-width: 70%;
+}
+
+/* #basement-waterproofing-srvs img {
+    max-width: ;
+} */
+
+/* #retaining-walls-srvs img {
+    max-width: ;
+} */
+
 /* .services-img-title {
     position: absolute;
     top: 52%; 
