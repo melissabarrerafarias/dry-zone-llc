@@ -17,6 +17,17 @@ import planterImg from '../assets/images/services-images/planters-img.jpg';
 import showerPansImg1 from '../assets/images/services-images/showerpans-img.jpg';
 import showerPansImg2 from '../assets/images/services-images/showerpans-img2.jpg';
 import liquidAppliedFlashImg from '../assets/images/services-images/liquidAppliedFlash-img.jpg';
+import basementImage1 from '../assets/images/services-images/basementimg1.jpg';
+import basementImage2 from '../assets/images/services-images/basementimg2.jpg';
+import basementImage3 from '../assets/images/services-images/basementimg3.jpg';
+import basementImage4 from '../assets/images/services-images/basementimg4.jpg';
+import fountainImg1 from '../assets/images/services-images/water-features-img9.jpg';
+import fountainImg2 from '../assets/images/services-images/water-features-img3.jpg';
+import fountainImg3 from '../assets/images/services-images/water-features-img1.jpg';
+import fountainImg4 from '../assets/images/services-images/water-features-img5.jpg';
+import fountainImg5 from '../assets/images/services-images/water-features-img7.jpg';
+import fountainImg6 from '../assets/images/services-images/water-features-img8.jpg';
+
 
 
 function Services() {
@@ -37,9 +48,9 @@ function Services() {
 
                 <div id="in-depth-services" className='row'>
 
-                
+
                     <div className="services-page-nav row">
-                    <h1 className='col-md-12'>Browse the map above or explore an option below:</h1>
+                        <h1 className='col-md-12'>Browse the map above or explore an option below:</h1>
                         <ul className='="col-md-12'>
                             {/* Browse the map above or explore an option below: */}
                             <li><a href="#windowanddooropening-srvs">Window/Door Openings</a></li>
@@ -106,10 +117,36 @@ function Services() {
                     <div id="basement-waterproofing-srvs">
                         <h2>Basement Waterproofing</h2>
                         <div className='row mt-5'>
-                            {/* <div className='col-md-6 services-detail-left'>
-                                <img src={windowAndDoorPansImg}></img>
-                            </div> */}
-                            <div className='col-md-6 services-detail-right'>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item">
+                                            <img src={basementImage1} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={basementImage2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={basementImage3} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item active">
+                                            <img src={basementImage4} class="d-block w-100" alt="..." />
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                 <p>
                                     Wet and damp basements lead to diminished property values form the loss of potential
                                     storage, and living space, for both homeowners and business owners. Those wet conditions
@@ -218,10 +255,43 @@ function Services() {
                     <div id="fountainandwaterfeatures-srvs">
                         <h2>Fountains and Water Features</h2>
                         <div className='row mt-5'>
-                            {/* <div className='col-md-6 services-detail-left'>
-                                <img src={planterImg}></img>
-                            </div> */}
-                            <div className='col-md-6 services-detail-right'>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={fountainImg6} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={fountainImg5} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={fountainImg4} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={fountainImg3} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={fountainImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item active">
+                                            <img src={fountainImg1} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                 <p>
                                     Commonly a centerpiece of pedestrian plazas and architectural hardscapes on
                                     commercial properties, water features can greatly enhance the aesthetics and

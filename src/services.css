@@ -164,6 +164,14 @@
     background-image: url(./assets/images/white-wall.avif)
 }
 
+.carousel {
+    max-width: 50%; 
+}
+
+.carousel-item {
+    max-height: 450px
+}
+
 #showerpans-srvs p {
     max-width: 40%;
 }
@@ -178,6 +186,11 @@
 
 #windowanddoorpans-srvs img {
     max-width: 70%;
+}
+
+#basement-waterproofing-srvs img {
+    max-width: 100%; 
+    opacity: 80%
 }
 
 #retaining-walls-srvs img {
