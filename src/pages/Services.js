@@ -10,10 +10,16 @@ import basementExample from '../assets/images/basement-example.jpg';
 
 import windowAndDoorOpeningsImg from '../assets/images/services-images/window&dooropenings-img.jpg';
 import windowAndDoorOpeningsImg2 from '../assets/images/services-images/windowAndDoorOpeningsImg2.jpg';
+
 import windowAndDoorPansImg from '../assets/images/services-images/windowanddoorpans-img.jpg';
 import windowAndDoorPansImg2 from '../assets/images/services-images/windowanddoorpans-img2.jpg';
 import windowAndDoorPansImg3 from '../assets/images/services-images/windowanddoorpans-img3.jpg';
+
 import retainingWallsImg from '../assets/images/services-images/retaining-walls-img.jpg';
+import retainingWallsImg2 from '../assets/images/services-images/retaining-walls-img2.jpg';
+import retainingWallsImg3 from '../assets/images/services-images/retaining-walls-img3.jpg';
+import retainingWallsImg4 from '../assets/images/services-images/retaining-walls-img4.jpg';
+
 import decksImg1 from '../assets/images/services-images/decks-srvs-img1.jpg';
 import decksImg2 from '../assets/images/services-images/decks-srvs-img2.jpg';
 import mudsillImg from '../assets/images/services-images/mudsill-img.jpg';
@@ -25,6 +31,9 @@ import basementImage1 from '../assets/images/services-images/basementimg1.jpg';
 import basementImage2 from '../assets/images/services-images/basementimg2.jpg';
 import basementImage3 from '../assets/images/services-images/basementimg3.jpg';
 import basementImage4 from '../assets/images/services-images/basementimg4.jpg';
+import basementImage5 from '../assets/images/services-images/basementimg5.jpg';
+import basementImage6 from '../assets/images/services-images/basementimg6.jpg';
+
 import fountainImg1 from '../assets/images/services-images/water-features-img9.jpg';
 import fountainImg2 from '../assets/images/services-images/water-features-img3.jpg';
 import fountainImg3 from '../assets/images/services-images/water-features-img1.jpg';
@@ -177,9 +186,9 @@ function Services() {
                         <div className='row mt-5'>
                             {/* /////////////carousel */}
                             <div className="col-md-12 d-flex justify-content-center">
-                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselControls3" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
-                                        <div class="carousel-item">
+                                        <div class="carousel-item active">
                                             <img src={basementImage1} class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
@@ -188,15 +197,21 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={basementImage3} class="d-block w-100" alt="..." />
                                         </div>
-                                        <div class="carousel-item active">
+                                        <div class="carousel-item">
                                             <img src={basementImage4} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={basementImage5} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={basementImage6} class="d-block w-100" alt="..." />
+                                        </div>
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls3" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls3" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -223,13 +238,35 @@ function Services() {
                     <div id="retaining-walls-srvs">
                         <h2>Retaining Walls</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={retainingWallsImg}></img>
-                                </Fade>
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls4" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={retainingWallsImg} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={retainingWallsImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={retainingWallsImg3} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={retainingWallsImg4} class="d-block w-100" alt="..." />
+                                        </div>
+                                        
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls4" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls4" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Retaining Wall Waterproofing or Post-Applied Waterproofing is installed because underground
                                         Liquid water, harmful contaminated gas vapors, or water moisture can remain and seep
