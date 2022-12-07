@@ -165,7 +165,7 @@
 }
 
 .carousel {
-    max-width: 50%; 
+    max-width: 30%; 
 }
 
 .carousel-item {
@@ -181,7 +181,7 @@
 }
 
 #windowanddooropening-srvs img {
-    max-width: 60%;
+    max-width: 100%;
 }
 
 #windowanddoorpans-srvs img {

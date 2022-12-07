@@ -9,6 +9,7 @@ import roofExample from '../assets/images/roof-example.jpg';
 import basementExample from '../assets/images/basement-example.jpg';
 
 import windowAndDoorOpeningsImg from '../assets/images/services-images/window&dooropenings-img.jpg';
+import windowAndDoorOpeningsImg2 from '../assets/images/services-images/windowAndDoorOpeningsImg2.jpg';
 import windowAndDoorPansImg from '../assets/images/services-images/windowanddoorpans-img.jpg';
 import retainingWallsImg from '../assets/images/services-images/retaining-walls-img.jpg';
 import decksImg1 from '../assets/images/services-images/decks-srvs-img1.jpg';
@@ -81,23 +82,39 @@ function Services() {
                     <div id="windowanddooropening-srvs">
                         <h2>Window/Door Openings</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={windowAndDoorOpeningsImg}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item">
+                                            <img src={windowAndDoorOpeningsImg} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={windowAndDoorOpeningsImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
-                            <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+
+                            <Fade bottom>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Even in mild climates, drafty windows and doors can be extremely problematic.
-                                        Proper weatherproofing can minimize unnecessary energy consumption and environmental
-                                        stress, and contribute to the improved health and happiness of occupants. Common signs
-                                        that your home or building needs weatherproofing:
-                                        <ul>
-                                            <li>Drafts around closed windows or doors</li>
-                                            <li>Gaps around window or door trim</li>
-                                            <li>Moisture, insects and dust find their way in through holes and gaps around windows or doors</li>
-                                        </ul>
+                                        Wet and damp basements lead to diminished property values form the loss of potential
+                                        storage, and living space, for both homeowners and business owners. Those wet conditions
+                                        also give cause for a host of health concerns, which are associated with wet damp crawl
+                                        spaces and basements. Homeowners and business owners benefit from waterproofing their
+                                        basements and crawl spaces by protecting their home, their health, and to retain the
+                                        value of their home or business.
                                     </p>
                                 </div>
                             </Fade>
