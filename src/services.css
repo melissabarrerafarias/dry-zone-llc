@@ -165,7 +165,11 @@
 }
 
 .carousel {
-    max-width: 30%; 
+    max-width: 50%; 
+}
+
+#windowanddooropening-srvs .carousel {
+    max-width: 30%;
 }
 
 .carousel-item {
@@ -185,7 +189,7 @@
 }
 
 #windowanddoorpans-srvs img {
-    max-width: 70%;
+    max-width: 100%;
 }
 
 #basement-waterproofing-srvs img {
