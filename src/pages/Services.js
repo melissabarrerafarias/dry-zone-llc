@@ -86,7 +86,7 @@ function Services() {
                             <div className="col-md-12 d-flex justify-content-center">
                                 <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
-                                        <div class="carousel-item">
+                                        <div class="carousel-item active">
                                             <img src={windowAndDoorOpeningsImg} class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
