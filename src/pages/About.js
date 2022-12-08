@@ -8,13 +8,13 @@ function About() {
         <div id="about">
             <Navbar />
             <section id="abt-dzone">
-                <div className="about-hero">
+                {/* <div className="about-hero">
                     <Fade top>
                         <div className="abt-hero-title">
                             <p>ABOUT DRY ZONE LLC</p>
                         </div>
                     </Fade>
-                </div>
+                </div> */}
 
                 <div id="about-paragraphs">
                     {/* <h1>Origins</h1>

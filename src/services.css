@@ -48,14 +48,14 @@
 }
 
 .modal-body {
-    font-family: 'Work Sans', sans-serif; 
+    font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     margin: 10px
 }
 
 .modal-body img {
-    margin-bottom: 20px; 
-    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
     width: 100%
 }
 
@@ -74,10 +74,10 @@
 } */
 
 #in-depth-services h1 {
-    color: black; 
+    color: black;
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
-    margin-top: 25px; 
+    margin-top: 25px;
     text-align: center;
 }
 
@@ -87,24 +87,17 @@
 }
 
 .services-page-nav {
-    /* text-align: center; */
     margin-top: 20px;
-    color: black; 
+    color: black;
     font-size: 25px;
-    font-family: 'Kanit', sans-serif; 
-    /* text-align: center; */
+    font-family: 'Kanit', sans-serif;
     background-image: url(./assets/images/white-wall.avif);
     max-width: 50%;
 }
 
 .services-page-nav ul {
     list-style-type: none;
-    /* padding: 20px;  */
-    /* padding-right: 8%; 
-    padding-left: 8%; */
     border-radius: 2px;
-    /* display: flex; */
-    /* justify-content: center; */
     text-align: center;
 }
 
@@ -113,10 +106,10 @@
 }
 
 #in-depth-services h2 {
-    color: white; 
+    color: white;
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
-    margin-top: 15%; 
+    margin-top: 15%;
     text-align: center;
     text-decoration: underline;
 }
@@ -127,11 +120,11 @@
 }
 
 .services-detail-right {
-    color: black; 
+    color: black;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     max-width: 30%;
-    margin-left: 2%; 
+    margin-left: 2%;
     background-image: url(./assets/images/white-wall.avif);
 }
 
@@ -139,26 +132,19 @@
     padding: 20px
 }
 
-
-
-
-/* .deck-description {
-    background-image: url(./assets/images/white-wall.avif);
-} */
-
 .srvs-center-description p {
-    color: black; 
+    color: black;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     max-width: 40%;
     margin-top: 40px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
     padding: 20px;
     background-image: url(./assets/images/white-wall.avif)
 }
 
 .carousel {
-    max-width: 50%; 
+    max-width: 50%;
 }
 
 #windowanddooropening-srvs .carousel {
@@ -173,9 +159,10 @@
     max-height: 450px;
 }
 
+/* 
 #showerpans-srvs p {
     max-width: 40%;
-}
+} */
 
 .services-detail-right ul {
     margin-top: 40px
@@ -190,7 +177,7 @@
 }
 
 .carousel img {
-    max-width: 100%; 
+    max-width: 100%;
     opacity: 80%
 }
 
@@ -220,7 +207,7 @@
 }
 
 #architecturalCaulking-srvs img {
-    max-width: 100%; 
+    max-width: 100%;
     max-height: 450px;
     min-height: 450px;
 }
@@ -239,10 +226,10 @@
 
 .back-to-top {
     text-align: center;
-    margin-top: 10%; 
-    font-size: 20px; 
-    color: white; 
-    font-family: 'Kanit', sans-serif; 
+    margin-top: 10%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
     text-decoration: underline;
     transition-duration: 1s
 }
@@ -260,34 +247,118 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation: arrow 2s infinite;
-  }
-  
-  @keyframes arrow {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-  }
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
-/* #basement-waterproofing-srvs img {
-    max-width: ;
-} */
 
-/* #retaining-walls-srvs img {
-    max-width: ;
-} */
+@media (max-width: 991.98px) {
+    #windowanddooropening-srvs .carousel {
+        max-width: 50%;
+    }
 
-/* .services-img-title {
-    position: absolute;
-    top: 52%; 
-    left: 37%;
-    font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
-    color: black;  */
-/* background-color: white;  */
-/* padding: 10px */
-/* } */
+    .srvs-center-description p {
+        max-width: 50%;
+    }
+}
 
-/* .services-img-title p {
-    padding: 2px
-} */
+@media (max-width: 767px) {
+    .srvs-center-description p {
+        font-size: 15px;
+    }
+
+    .services-detail-right {
+        color: black;
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+        max-width: 50%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+
+    #mudsill-srvs img, #planters-srvs img {
+        max-width: 50%;
+    }
+
+    #mudsill-srvs div, #planters-srvs div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .services-page-nav {
+        font-size: 20px; 
+        max-width: 60%;
+        padding: 20px
+    }
+
+    #in-depth-services h1 {
+        font-size: 20px;
+        margin-bottom: 20px 
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel {
+        max-width: 70%;
+    }
+
+    #windowanddooropening-srvs .carousel {
+        max-width: 70%;
+    }
+
+    .srvs-center-description p {
+        max-width: 70%;
+    }
+
+    .services-page-nav {
+        max-width: 70%
+    }
+
+    .services-detail-right {
+        max-width: 70%;
+        padding: 5px
+    }
+
+    #mudsill-srvs img, #planters-srvs img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .carousel {
+        max-width: 80%;
+    }
+
+    #windowanddooropening-srvs .carousel {
+        max-width: 80%;
+    }
+
+    .srvs-center-description p {
+        max-width: 80%;
+    }
+
+    .services-page-nav {
+        font-size: 15px; 
+        max-width: 80%;
+        padding: 20px
+    }
+
+    #in-depth-services h1 {
+        font-size: 15px;
+        margin-bottom: 20px 
+    }
+}

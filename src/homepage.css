@@ -74,7 +74,7 @@
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 8px;
     font-weight: 500;
     font-family: 'Kanit', sans-serif;
@@ -191,7 +191,7 @@
     padding: 5px; 
     padding-left: 10px; 
     padding-right: 10px; 
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .read-more button a {
