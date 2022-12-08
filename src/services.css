@@ -139,15 +139,8 @@
     padding: 20px
 }
 
-#decks-srvs div {
-    display: flex;
-    justify-content: center;
-}
 
-#showerpans-srvs div {
-    display: flex;
-    justify-content: center;
-}
+
 
 /* .deck-description {
     background-image: url(./assets/images/white-wall.avif);
@@ -202,7 +195,7 @@
 }
 
 #decks-srvs img {
-    max-width: 40%;
+    max-width: 100%;
 }
 
 #mudsill-srvs img {
@@ -215,7 +208,7 @@
 
 
 #showerpans-srvs img {
-    max-width: 40%;
+    max-width: 100%;
 }
 
 #liquidAppliedFlashings-srvs img {

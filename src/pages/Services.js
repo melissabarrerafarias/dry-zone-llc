@@ -22,10 +22,19 @@ import retainingWallsImg4 from '../assets/images/services-images/retaining-walls
 
 import decksImg1 from '../assets/images/services-images/decks-srvs-img1.jpg';
 import decksImg2 from '../assets/images/services-images/decks-srvs-img2.jpg';
+import decksImg3 from '../assets/images/services-images/decks-srvs-img3.jpg';
+import decksImg4 from '../assets/images/services-images/decks-srvs-img4.jpg';
+
+
 import mudsillImg from '../assets/images/services-images/mudsill-img.jpg';
+
 import planterImg from '../assets/images/services-images/planters-img.jpg';
+
 import showerPansImg1 from '../assets/images/services-images/showerpans-img.jpg';
 import showerPansImg2 from '../assets/images/services-images/showerpans-img2.jpg';
+import showerPansImg3 from '../assets/images/services-images/showerpans-img3.jpg';
+
+
 import liquidAppliedFlashImg from '../assets/images/services-images/liquidAppliedFlash-img.jpg';
 import basementImage1 from '../assets/images/services-images/basementimg1.jpg';
 import basementImage2 from '../assets/images/services-images/basementimg2.jpg';
@@ -253,7 +262,7 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={retainingWallsImg4} class="d-block w-100" alt="..." />
                                         </div>
-                                        
+
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls4" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -283,14 +292,36 @@ function Services() {
                     <div id="decks-srvs">
                         <h2>Decks</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-12 '>
-                                <Fade top>
-                                    <img src={decksImg2}></img>
-                                </Fade>
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls5" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={decksImg1} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={decksImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={decksImg3} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={decksImg4} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls5" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls5" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
 
                             <Fade right>
-                                <div className='col-md-12 srvs-center-description'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         If you have or plan to have a deck or balcony attached to your home, you know it can be
                                         an awesome way to bring the outdoors indoors. But in The PNW you also  know that our
@@ -302,12 +333,6 @@ function Services() {
                                     </p>
                                 </div>
                             </Fade>
-
-                            <div className='col-md-12 '>
-                                <Fade bottom>
-                                    <img src={decksImg1}></img>
-                                </Fade>
-                            </div>
                         </div>
                     </div>
 
@@ -370,7 +395,7 @@ function Services() {
                         <div className='row mt-5'>
                             {/* /////////////carousel */}
                             <div className="col-md-12 d-flex justify-content-center">
-                                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselControls6" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src={fountainImg6} class="d-block w-100" alt="..." />
@@ -392,11 +417,11 @@ function Services() {
                                         </div>
 
                                     </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls6" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls6" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
@@ -429,13 +454,33 @@ function Services() {
                     <div id="showerpans-srvs">
                         <h2>Shower Pans</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-12'>
-                                <Fade top>
-                                    <img src={showerPansImg2}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls7" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={showerPansImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={showerPansImg3} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={showerPansImg1} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls7" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls7" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade left>
-                                <div className='col-md-12 srvs-center-description'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Waterproofing is one of the single most important things that must be done correctly
                                         when building, renovating or repairing a shower in your home. The waterproof membrane
