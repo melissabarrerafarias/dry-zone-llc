@@ -36,6 +36,9 @@ import showerPansImg3 from '../assets/images/services-images/showerpans-img3.jpg
 
 
 import liquidAppliedFlashImg from '../assets/images/services-images/liquidAppliedFlash-img.jpg';
+import liquidAppliedFlashImg2 from '../assets/images/services-images/liquidAppliedFlash-img2.jpg';
+import liquidAppliedFlashImg3 from '../assets/images/services-images/liquidAppliedFlash-img3.jpg';
+
 
 import basementImage1 from '../assets/images/services-images/basementimg1.jpg';
 import basementImage2 from '../assets/images/services-images/basementimg2.jpg';
@@ -64,7 +67,7 @@ import epoxyCoatingsImg2 from '../assets/images/services-images/epoxy-coatings-i
 import epoxyCoatingsImg3 from '../assets/images/services-images/epoxy-coatings-img3.jpg';
 
 import injectionsImg1 from '../assets/images/services-images/injections-img1.jpg';
-// import injectionsImg2 from '../assets/images/services-images/injections-img2.jpg'; 
+import injectionsImg2 from '../assets/images/services-images/injections-img2.jpg';
 
 
 
@@ -655,13 +658,33 @@ function Services() {
                     <div id="liquidAppliedFlashings-srvs">
                         <h2>Liquid Applied Flashings </h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={liquidAppliedFlashImg}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls11" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={liquidAppliedFlashImg} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={liquidAppliedFlashImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={liquidAppliedFlashImg3} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls11" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls11" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Homeowners want energy-efficient, durable, and healthy homes with low utility,
                                         maintenance, and repair costs. Achieving this requires a tight building envelope
@@ -678,13 +701,30 @@ function Services() {
                     <div id="crackRepairsAndInjections-srvs">
                         <h2>Crack Repair / Injections</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={injectionsImg1}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-13 d-flex justify-content-center">
+                                <div id="carouselControls13" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={injectionsImg1} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={injectionsImg2} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls13" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls13" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Foundation issues can detract from your enjoyment of your home and can even reduce
                                         its value over time. We can help you resolve foundation problems quickly to protect
