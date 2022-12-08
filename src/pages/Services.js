@@ -188,7 +188,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Sill pan flashing is recognized by both the design profession and the building
@@ -288,7 +288,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Retaining Wall Waterproofing or Post-Applied Waterproofing is installed because underground
@@ -334,7 +334,7 @@ function Services() {
                                 </div>
                             </div>
 
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         If you have or plan to have a deck or balcony attached to your home, you know it can be
@@ -493,7 +493,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade left>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Waterproofing is one of the single most important things that must be done correctly
@@ -548,7 +548,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Architectural sealants are applied to the exterior of a building to prevent any
@@ -592,7 +592,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Weather-resistant barriers play a crucial role in the protection and energy-efficiency
@@ -637,7 +637,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         The floors are one of the most important, yet often discounted, elements of any
@@ -683,7 +683,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Homeowners want energy-efficient, durable, and healthy homes with low utility,
@@ -723,7 +723,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade right>
+                            <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Foundation issues can detract from your enjoyment of your home and can even reduce
