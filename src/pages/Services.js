@@ -36,6 +36,7 @@ import showerPansImg3 from '../assets/images/services-images/showerpans-img3.jpg
 
 
 import liquidAppliedFlashImg from '../assets/images/services-images/liquidAppliedFlash-img.jpg';
+
 import basementImage1 from '../assets/images/services-images/basementimg1.jpg';
 import basementImage2 from '../assets/images/services-images/basementimg2.jpg';
 import basementImage3 from '../assets/images/services-images/basementimg3.jpg';
@@ -49,9 +50,14 @@ import fountainImg3 from '../assets/images/services-images/water-features-img1.j
 import fountainImg4 from '../assets/images/services-images/water-features-img5.jpg';
 import fountainImg5 from '../assets/images/services-images/water-features-img7.jpg';
 import fountainImg6 from '../assets/images/services-images/water-features-img8.jpg';
+
 import architecturalCaulkingImg1 from '../assets/images/services-images/architectural-caulking-img1.jpg';
+import architecturalCaulkingImg2 from '../assets/images/services-images/architectural-caulking-img3.jpg';
+
 import waterResistantBarrierImg from '../assets/images/services-images/water-resistant-barrier-img.jpg';
+
 import epoxyCoatingsImg from '../assets/images/services-images/epoxy-coatings-img.jpg';
+
 import injectionsImg1 from '../assets/images/services-images/injections-img1.jpg';
 // import injectionsImg2 from '../assets/images/services-images/injections-img2.jpg'; 
 
@@ -504,11 +510,6 @@ function Services() {
                                     </p>
                                 </div>
                             </Fade>
-                            <div className='col-md-12'>
-                                <Fade bottom>
-                                    <img src={showerPansImg1}></img>
-                                </Fade>
-                            </div>
                         </div>
                     </div>
 
@@ -517,13 +518,30 @@ function Services() {
                     <div id="architecturalCaulking-srvs">
                         <h2>Architectural Caulking</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={architecturalCaulkingImg1}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls8" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={architecturalCaulkingImg1} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={architecturalCaulkingImg2} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls8" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls8" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Architectural sealants are applied to the exterior of a building to prevent any
                                         outside elements from entering the structure. Architectural sealants must be able
