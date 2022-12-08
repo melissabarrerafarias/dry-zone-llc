@@ -68,7 +68,7 @@ function Homepage() {
                 </div>
             </section>
 
-            <section id="what-people-are-saying">
+            {/* <section id="what-people-are-saying">
                 <h1>What People Are Saying</h1>
                 <div className="row">
                     <div className="col-md-4">
@@ -95,10 +95,10 @@ function Homepage() {
                     </div>
 
                 </div>
-            </section>
+            </section> */}
 
             <section id="contact-me">
-                <h1>Contact Me</h1>
+                <h1>Contact Us</h1>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="contact-area">
