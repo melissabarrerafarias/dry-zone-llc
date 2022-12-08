@@ -55,8 +55,13 @@ import architecturalCaulkingImg1 from '../assets/images/services-images/architec
 import architecturalCaulkingImg2 from '../assets/images/services-images/architectural-caulking-img3.jpg';
 
 import waterResistantBarrierImg from '../assets/images/services-images/water-resistant-barrier-img.jpg';
+import waterResistantBarrierImg3 from '../assets/images/services-images/water-resistant-barrier-img3.jpg';
+import waterResistantBarrierImg4 from '../assets/images/services-images/water-resistant-barrier-img4.jpg';
+
 
 import epoxyCoatingsImg from '../assets/images/services-images/epoxy-coatings-img.jpg';
+import epoxyCoatingsImg2 from '../assets/images/services-images/epoxy-coatings-img2.jpg';
+import epoxyCoatingsImg3 from '../assets/images/services-images/epoxy-coatings-img3.jpg';
 
 import injectionsImg1 from '../assets/images/services-images/injections-img1.jpg';
 // import injectionsImg2 from '../assets/images/services-images/injections-img2.jpg'; 
@@ -559,13 +564,33 @@ function Services() {
                     <div id="waterResistantBarriers-srvs">
                         <h2>Water Resistant Barriers</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={waterResistantBarrierImg}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls9" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={waterResistantBarrierImg} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={waterResistantBarrierImg3} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={waterResistantBarrierImg4} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls9" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls9" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Weather-resistant barriers play a crucial role in the protection and energy-efficiency
                                         of today’s commercial buildings. Weather-resistant barriers can both protect a
@@ -584,13 +609,33 @@ function Services() {
                     <div id="epoxyCoatings-srvs">
                         <h2>Epoxy Coatings</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={epoxyCoatingsImg}></img>
-                                </Fade>
+                            {/* /////////////carousel */}
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControls10" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={epoxyCoatingsImg} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={epoxyCoatingsImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={epoxyCoatingsImg3} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls10" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls10" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                             <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         The floors are one of the most important, yet often discounted, elements of any
                                         residential space. Not only that the floors add an aesthetic element to your area,
