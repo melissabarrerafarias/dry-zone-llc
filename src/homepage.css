@@ -270,6 +270,13 @@
     background-color: rgba(253, 145, 22, 0.85);
     border: none; 
     font-family: 'Work Sans', sans-serif; 
+    margin: auto; 
+    color: black
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
 }
 
 .contact-info {

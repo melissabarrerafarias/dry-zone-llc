@@ -117,7 +117,9 @@ function Homepage() {
 
                                 <input type='hidden' name="_next" value="http://localhost:3000/confirm" /> {/* needs to be changed to actual domain */}
                                 <input type="hidden" name="_captcha" value="false" />
+                                <div className="submit-button">
                                 <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
                             </form>
                         </div>
                     </div>

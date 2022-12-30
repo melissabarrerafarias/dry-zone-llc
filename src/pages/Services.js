@@ -82,9 +82,21 @@ function Services() {
                     <img src={servicesImg} usemap="#workmap" />
 
                     <map name="workmap">
-                        <area shape="circle" coords="272, 167, 20" alt="Computer" data-bs-toggle="modal" data-bs-target="#gutterModal" />
-                        <area shape="circle" coords="275, 240, 20" alt="Phone" data-bs-toggle="modal" data-bs-target="#roofModal" />
-                        <area shape="circle" coords="388, 390, 20" alt="Phone" data-bs-toggle="modal" data-bs-target="#basementModal" />
+                        <area shape="circle" coords="270, 163, 20" alt="retainingWalls" data-bs-toggle="modal" data-bs-target="#retainingWallsModal" />
+                        <area shape="circle" coords="272, 237, 20" alt="doorAndWindowOpenings" data-bs-toggle="modal" data-bs-target="#doorAndWindowOpeningsModal" />
+                        <area shape="circle" coords="825, 109, 20" alt="doorAndWindowOpenings" data-bs-toggle="modal" data-bs-target="#doorAndWindowOpeningsModal" />
+                        <area shape="circle" coords="641, 49, 20" alt="doorPans" data-bs-toggle="modal" data-bs-target="#doorPansModal" />
+                        <area shape="circle" coords="386, 375, 20" alt="doorPans" data-bs-toggle="modal" data-bs-target="#doorPansModal" />
+                        <area shape="circle" coords="520, 245, 20" alt="liquidAppliedFlashings" data-bs-toggle="modal" data-bs-target="#liquidAppliedFlashingsModal" />
+                        <area shape="circle" coords="792, 175, 20" alt="deckCoatings" data-bs-toggle="modal" data-bs-target="#deckCoatingsModal" />
+                        <area shape="circle" coords="509, 334, 20" alt="deckCoatings" data-bs-toggle="modal" data-bs-target="#deckCoatingsModal" />
+                        <area shape="circle" coords="670, 250, 20" alt="architecturalCaulking" data-bs-toggle="modal" data-bs-target="#architecturalCaulkingModal" />
+                        <area shape="circle" coords="835, 271, 20" alt="weatherResistantBarrier" data-bs-toggle="modal" data-bs-target="#weatherResistantBarrierModal" />
+                        <area shape="circle" coords="610, 437, 20" alt="mudsillWaterproofing" data-bs-toggle="modal" data-bs-target="#mudsillWaterproofingModal" />
+                        <area shape="circle" coords="850, 463, 20" alt="epoxyFloors" data-bs-toggle="modal" data-bs-target="#epoxyFloorsModal" />
+                        <area shape="circle" coords="550, 570, 20" alt="showerPansAndWalls" data-bs-toggle="modal" data-bs-target="#showerPansAndWallsModal" />
+                        <area shape="circle" coords="550, 640, 20" alt="crackRepairAndInjections" data-bs-toggle="modal" data-bs-target="#crackRepairAndInjectionsModal" />
+                        <area shape="circle" coords="233, 633, 20" alt="basementWaterproofing" data-bs-toggle="modal" data-bs-target="#basementWaterproofingModal" />
                     </map>
                 </div>
 
@@ -755,8 +767,8 @@ function Services() {
                 </div>
 
 
-                {/* modal gutter */}
-                <div class="modal fade" id="gutterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* modal RETAINING WALLS */}
+                <div class="modal fade" id="retainingWallsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -778,8 +790,8 @@ function Services() {
                     </div>
                 </div>
 
-                {/* modal roofs */}
-                <div class="modal fade" id="roofModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* modal DOOR AND WINDOW OPENINGS */}
+                <div class="modal fade" id="doorAndWindowOpeningsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -795,7 +807,189 @@ function Services() {
                     </div>
                 </div>
 
-                <div class="modal fade" id="basementModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                {/* modal DOOR PANS */}
+                <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal DOOR PANS */}
+                <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal LIQUID APPLIED FLASHINGS */}
+                <div class="modal fade" id="liquidAppliedFlashingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal DECK COATINGS */}
+                <div class="modal fade" id="deckCoatingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal ARCHITECTURAL CAULKING MODAL */}
+                <div class="modal fade" id="architecturalCaulkingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal WEATHER RESISTANT BARRIER */}
+                <div class="modal fade" id="weatherResistantBarrierModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal MUDSILL WATERPROOFING */}
+                <div class="modal fade" id="mudsillWaterproofingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal EPOXY FLOORS */}
+                <div class="modal fade" id="epoxyFloorsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal SHOWER PANS AND WALLS */}
+                <div class="modal fade" id="showerPansAndWallsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal CRACK REPAIR AND INJECTIONS */}
+                <div class="modal fade" id="crackRepairAndInjectionsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem Ipsum</p>
+                                <img src={basementExample} className="modal-img"></img>
+                                <a href="/">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* modal BASEMENT WATERPROOFING */}
+                <div class="modal fade" id="basementWaterproofingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
