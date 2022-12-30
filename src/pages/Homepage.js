@@ -49,17 +49,18 @@ function Homepage() {
                     <img src={constructionWorker} className="worker-img"></img>
                 </div>
                 <div className="col-md-6">
-                    <h1>What I Do</h1>
+                    <h1>What We Do</h1>
                     <div className="do-expln">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>The name says it all! Dry Zone Waterproofing & Concrete Coatings LLC specializes in just that.
+                            Though we aren't waterbenders, we have a few tricks up our sleeve to protect your home or help you
+                            spruce it up! Some examples of what we could do for you are:
+                        </p>
                     </div>
                     <div className="do-examples">
                         <ul>
-                            <li><span>Waterproofing basements</span></li>
-                            <li><span>Applying Cold Membrane on garage floors</span></li>
-                            <li><span>Sealing gutters with glue</span></li>
+                            <li><span>Epoxy Coatings</span></li>
+                            <li><span>Elegant water features</span></li>
+                            <li><span>Waterproof shower pans</span></li>
                         </ul>
                     </div>
                     <div className="read-more">
@@ -102,17 +103,21 @@ function Homepage() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="contact-area">
-                            <form>
+                            <form action="https://formsubmit.co/melissikiss@gmail.com" method="POST">
                                 <p>Have a project in mind? Describe what you need and I'll get back to you.</p>
                                 <div class="input-group input-group-sm mb-3">
-                                    <input type="text" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                                    <input type="text" name="name" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
                                 <div class="input-group input-group-sm mb-3">
-                                    <input type="email" placeholder="Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                                    <input type="email" name="email" placeholder="Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
                                 <div class="input-group input-group-sm mb-3">
-                                    <textarea type="text" placeholder="Project Description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
+                                    <textarea type="text" name="description" placeholder="Project Description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
+
+                                <input type='hidden' name="_next" value="http://localhost:3000/confirm" /> {/* needs to be changed to actual domain */}
+                                <input type="hidden" name="_captcha" value="false" />
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                         </div>
                     </div>

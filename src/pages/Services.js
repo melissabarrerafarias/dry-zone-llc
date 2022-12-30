@@ -78,7 +78,7 @@ function Services() {
         <div id="services" >
             <Navbar />
             <section>
-                {/* <div className="services-img">
+                <div className="services-img">
                     <img src={servicesImg} usemap="#workmap" />
 
                     <map name="workmap">
@@ -86,7 +86,7 @@ function Services() {
                         <area shape="circle" coords="275, 240, 20" alt="Phone" data-bs-toggle="modal" data-bs-target="#roofModal" />
                         <area shape="circle" coords="388, 390, 20" alt="Phone" data-bs-toggle="modal" data-bs-target="#basementModal" />
                     </map>
-                </div> */}
+                </div>
 
                 <div id="in-depth-services" className='row'>
 

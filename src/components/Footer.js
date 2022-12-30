@@ -10,7 +10,7 @@ function Footer() {
                 <div className="footer-warning">
                     <p>Dry Zone Waterproofing and Concrete Coatings LLC is a certified and licensed company
                         by the city of Olympia, Washington. Our company is insured and dedicated to delivering high-quality
-                        results. Owner Silverio Barrera has 20+ years of experience working on-site and supervising projects.
+                        results. We offer 20+ years of experience working on-site and supervising major projects.
                         For further information, visit the Services section or contact us. <p className="footer-contact">Phone:<a href="tel:390-890-1059">(390)890-1059</a>/Email:<a href="mailto:silverio@dzwcc.com">silverio@dzwcc.com</a></p></p>
 
                 </div>

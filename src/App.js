@@ -7,6 +7,7 @@ import Homepage from './pages/Homepage';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Services from './pages/Services';
+import Confirm from './pages/Confirm'; 
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/services" element={<Services />}></Route>
+          <Route path="/confirm" element={<Confirm />}></Route>
         </Routes>
         <Footer />
       </div>

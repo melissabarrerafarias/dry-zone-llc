@@ -266,6 +266,12 @@
     border-bottom: 3px solid #D79116;
 }
 
+#contact-me button {
+    background-color: rgba(253, 145, 22, 0.85);
+    border: none; 
+    font-family: 'Work Sans', sans-serif; 
+}
+
 .contact-info {
     text-align: center;
     width: 70%; 
