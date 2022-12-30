@@ -772,19 +772,15 @@ function Services() {
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Gutter</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Retaining Walls</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Lorem Ipsum
-                                <img src={gutterExample} className="modal-img"></img>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irur
-                                    e dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum</p>
-                                <a href="#gutters">Learn More</a>
+                                <img src={retainingWallsImg} className="modal-img"></img>
+                                <p>Retaining Wall Waterproofing or Post-Applied Waterproofing is essential to your project to prevent damaged
+                                    finishes or corruption of the structure itself. We can take care of it. 
+                                </p>
+                                <a href="#retaining-walls-srvs">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -795,13 +791,15 @@ function Services() {
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Door/Window Openings</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>Lorem Ipsum</p>
-                                <img src={roofExample} className="modal-img"></img>
-                                <a href="#roof">Learn More</a>
+                                <img src={windowAndDoorOpeningsImg2} className="modal-img"></img>
+                                <p>Even in mild climates, drafty windows and doors can be extremely problematic.
+                                    With our skills, we can protect these gaps to avoid any future headaches. 
+                                </p>
+                                <a href="#windowanddooropening-srvs">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -813,21 +811,21 @@ function Services() {
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Roof</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Door Pans</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>Lorem Ipsum</p>
-                                <img src={basementExample} className="modal-img"></img>
-                                <a href="/">Learn More</a>
+                                <img src={windowAndDoorPansImg2} className="modal-img"></img>
+                                <p>Sill pan flashing is critical in preventing water intrusion.</p>
+                                <a href="#windowanddoorpans-srvs">Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                {/* modal DOOR PANS */}
-                <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                
+                {/* <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -837,11 +835,11 @@ function Services() {
                             <div class="modal-body">
                                 <p>Lorem Ipsum</p>
                                 <img src={basementExample} className="modal-img"></img>
-                                <a href="/">Learn More</a>
+                                <a href="#windowanddoorpans-srvs">Learn More</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal LIQUID APPLIED FLASHINGS */}
