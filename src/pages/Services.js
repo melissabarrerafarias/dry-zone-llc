@@ -82,21 +82,21 @@ function Services() {
                     <img src={servicesImg} usemap="#workmap" />
 
                     <map name="workmap">
-                        <area shape="circle" coords="270, 163, 20" alt="retainingWalls" data-bs-toggle="modal" data-bs-target="#retainingWallsModal" />
-                        <area shape="circle" coords="272, 237, 20" alt="doorAndWindowOpenings" data-bs-toggle="modal" data-bs-target="#doorAndWindowOpeningsModal" />
-                        <area shape="circle" coords="825, 109, 20" alt="doorAndWindowOpenings" data-bs-toggle="modal" data-bs-target="#doorAndWindowOpeningsModal" />
-                        <area shape="circle" coords="641, 49, 20" alt="doorPans" data-bs-toggle="modal" data-bs-target="#doorPansModal" />
-                        <area shape="circle" coords="386, 375, 20" alt="doorPans" data-bs-toggle="modal" data-bs-target="#doorPansModal" />
-                        <area shape="circle" coords="520, 245, 20" alt="liquidAppliedFlashings" data-bs-toggle="modal" data-bs-target="#liquidAppliedFlashingsModal" />
-                        <area shape="circle" coords="792, 175, 20" alt="deckCoatings" data-bs-toggle="modal" data-bs-target="#deckCoatingsModal" />
-                        <area shape="circle" coords="509, 334, 20" alt="deckCoatings" data-bs-toggle="modal" data-bs-target="#deckCoatingsModal" />
-                        <area shape="circle" coords="670, 250, 20" alt="architecturalCaulking" data-bs-toggle="modal" data-bs-target="#architecturalCaulkingModal" />
-                        <area shape="circle" coords="835, 271, 20" alt="weatherResistantBarrier" data-bs-toggle="modal" data-bs-target="#weatherResistantBarrierModal" />
-                        <area shape="circle" coords="610, 437, 20" alt="mudsillWaterproofing" data-bs-toggle="modal" data-bs-target="#mudsillWaterproofingModal" />
-                        <area shape="circle" coords="850, 463, 20" alt="epoxyFloors" data-bs-toggle="modal" data-bs-target="#epoxyFloorsModal" />
-                        <area shape="circle" coords="550, 570, 20" alt="showerPansAndWalls" data-bs-toggle="modal" data-bs-target="#showerPansAndWallsModal" />
-                        <area shape="circle" coords="550, 640, 20" alt="crackRepairAndInjections" data-bs-toggle="modal" data-bs-target="#crackRepairAndInjectionsModal" />
-                        <area shape="circle" coords="233, 633, 20" alt="basementWaterproofing" data-bs-toggle="modal" data-bs-target="#basementWaterproofingModal" />
+                        <area shape="circle" coords="270, 163, 20" alt="retainingWalls" href="#retaining-walls-srvs" />
+                        <area shape="circle" coords="272, 237, 20" alt="doorAndWindowOpenings" href="#windowanddooropening-srvs" />
+                        <area shape="circle" coords="825, 109, 20" alt="doorAndWindowOpenings" href="#windowanddooropening-srvs" />
+                        <area shape="circle" coords="641, 49, 20" alt="doorPans" href="#windowanddoorpans-srvs" />
+                        <area shape="circle" coords="386, 375, 20" alt="doorPans" href="#windowanddoorpans-srvs" />
+                        <area shape="circle" coords="520, 245, 20" alt="liquidAppliedFlashings" href="#liquidAppliedFlashings-srvs" />
+                        <area shape="circle" coords="820, 175, 20" alt="deckCoatings" href="#decks-srvs" />
+                        <area shape="circle" coords="509, 334, 20" alt="deckCoatings" href="#decks-srvs" />
+                        <area shape="circle" coords="670, 250, 20" alt="architecturalCaulking" href="#architecturalCaulking-srvs" />
+                        <area shape="circle" coords="835, 271, 20" alt="weatherResistantBarrier" href="#waterResistantBarriers-srvs" />
+                        <area shape="circle" coords="610, 437, 20" alt="mudsillWaterproofing" href="#mudsill-srvs" />
+                        <area shape="circle" coords="850, 463, 20" alt="epoxyFloors" href="#epoxyCoatings-srvs"/>
+                        <area shape="circle" coords="550, 570, 20" alt="showerPansAndWalls" href="#showerpans-srvs" />
+                        <area shape="circle" coords="550, 640, 20" alt="crackRepairAndInjections" href="#crackRepairsAndInjections-srvs" />
+                        <area shape="circle" coords="233, 650, 20" alt="basementWaterproofing" href="#basement-waterproofing-srvs" />
                     </map>
                 </div>
 
@@ -768,7 +768,7 @@ function Services() {
 
 
                 {/* modal RETAINING WALLS */}
-                <div class="modal fade" id="retainingWallsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="retainingWallsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -784,10 +784,10 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* modal DOOR AND WINDOW OPENINGS */}
-                <div class="modal fade" id="doorAndWindowOpeningsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="doorAndWindowOpeningsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -803,11 +803,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal DOOR PANS */}
-                <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -821,7 +821,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 
@@ -843,7 +843,7 @@ function Services() {
 
 
                 {/* modal LIQUID APPLIED FLASHINGS */}
-                <div class="modal fade" id="liquidAppliedFlashingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="liquidAppliedFlashingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -857,11 +857,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal DECK COATINGS */}
-                <div class="modal fade" id="deckCoatingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="deckCoatingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -875,11 +875,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal ARCHITECTURAL CAULKING MODAL */}
-                <div class="modal fade" id="architecturalCaulkingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="architecturalCaulkingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -893,11 +893,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal WEATHER RESISTANT BARRIER */}
-                <div class="modal fade" id="weatherResistantBarrierModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="weatherResistantBarrierModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -911,11 +911,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal MUDSILL WATERPROOFING */}
-                <div class="modal fade" id="mudsillWaterproofingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="mudsillWaterproofingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -929,11 +929,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal EPOXY FLOORS */}
-                <div class="modal fade" id="epoxyFloorsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="epoxyFloorsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -947,11 +947,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal SHOWER PANS AND WALLS */}
-                <div class="modal fade" id="showerPansAndWallsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="showerPansAndWallsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -965,11 +965,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal CRACK REPAIR AND INJECTIONS */}
-                <div class="modal fade" id="crackRepairAndInjectionsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="crackRepairAndInjectionsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -983,11 +983,11 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* modal BASEMENT WATERPROOFING */}
-                <div class="modal fade" id="basementWaterproofingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                {/* <div class="modal fade" id="basementWaterproofingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -1001,7 +1001,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section >
         </div >
     )
