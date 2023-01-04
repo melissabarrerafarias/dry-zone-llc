@@ -4,7 +4,6 @@
 }
 
 .services-img {
-    /* background-image: url("./assets/images/silverio-services.jpg");  */
     height: 700px;
     width: 100%;
     /* Center and scale the image nicely */
@@ -264,6 +263,12 @@
 }
 
 
+@media (max-width: 1020px) {
+    .services-img {
+        height: 500px;
+    }
+}
+
 
 @media (max-width: 991.98px) {
     #windowanddooropening-srvs .carousel {
@@ -276,6 +281,10 @@
 }
 
 @media (max-width: 767px) {
+    .services-img {
+        height: 400px;
+    }
+
     .srvs-center-description p {
         font-size: 15px;
     }
@@ -290,28 +299,40 @@
         padding: 20px;
     }
 
-    #mudsill-srvs img, #planters-srvs img {
+    #mudsill-srvs img,
+    #planters-srvs img {
         max-width: 50%;
     }
 
-    #mudsill-srvs div, #planters-srvs div {
+    #mudsill-srvs div,
+    #planters-srvs div {
         display: flex;
         justify-content: center;
     }
 
     .services-page-nav {
-        font-size: 20px; 
+        font-size: 20px;
         max-width: 60%;
         padding: 20px
     }
 
     #in-depth-services h1 {
         font-size: 20px;
-        margin-bottom: 20px 
+        margin-bottom: 20px
+    }
+}
+
+@media (max-width: 600px) {
+    .services-img {
+        height: 350px;
     }
 }
 
 @media (max-width: 575.98px) {
+    .services-img {
+        height: 300px;
+    }
+
     .carousel {
         max-width: 70%;
     }
@@ -333,12 +354,23 @@
         padding: 5px
     }
 
-    #mudsill-srvs img, #planters-srvs img {
+    #mudsill-srvs img,
+    #planters-srvs img {
         max-width: 70%;
     }
 }
 
+@media (max-width: 460px) {
+    .services-img {
+        height: 250px;
+    }
+}
+
 @media (max-width: 375.98px) {
+    .services-img {
+        height: 200px;
+    }
+
     .carousel {
         max-width: 80%;
     }
@@ -352,13 +384,13 @@
     }
 
     .services-page-nav {
-        font-size: 15px; 
+        font-size: 15px;
         max-width: 80%;
         padding: 20px
     }
 
     #in-depth-services h1 {
         font-size: 15px;
-        margin-bottom: 20px 
+        margin-bottom: 20px
     }
 }
