@@ -105,6 +105,7 @@ function Services() {
 
                     <div id="services-nav" className="services-page-nav row">
                         <h1 className='col-md-12'>Browse the map above or explore an option below:</h1>
+                        <h1 className="explore-hidden">Explore an option below:</h1>
                         <ul className='col-md-12'>
                             {/* Browse the map above or explore an option below: */}
                             <li><a href="#windowanddooropening-srvs">Window/Door Openings</a></li>

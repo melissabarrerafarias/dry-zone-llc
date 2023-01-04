@@ -67,11 +67,6 @@
     border-radius: 15px 15px 15px;
 }
 
-/* #in-depth-services {
-    display: flex;
-    justify-content: center;
-} */
-
 #in-depth-services h1 {
     color: black;
     font-family: 'Kanit', sans-serif;
@@ -102,6 +97,10 @@
 
 .services-page-nav ul li a {
     color: black
+}
+
+.explore-hidden {
+    display: none;
 }
 
 #in-depth-services h2 {
@@ -266,6 +265,14 @@
 @media (max-width: 1020px) {
     .services-img {
         height: 500px;
+    }
+
+    #in-depth-services h1 {
+        display: none;
+    }
+
+    .explore-hidden {
+        display: block !important
     }
 }
 
