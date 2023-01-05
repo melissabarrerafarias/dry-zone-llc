@@ -28,8 +28,8 @@ function About() {
                         velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> */}
 
-                    <h1>Experience</h1>
-                    <p>Silverio Barrera kicked off his construccion career in California, 1998 when he was just 23 years
+                    {/* <h1>Experience</h1> */}
+                    {/* <p>Silverio Barrera kicked off his construccion career in California, 1998 when he was just 23 years
                         old. He worked in the roofing industry for two years until he switched over to his now specialty,
                         waterproofing. He operated at a start-up company that grew into an award-winning business that
                         used the newest products and up-to-date practices. For 22 years Silverio played a vital role
@@ -37,12 +37,17 @@ function About() {
                         senior supervisor and completed various freelance jobs on his own time. Every project being unique and
                         presenting its own challenges, Silverio overcame them with innovative solutions. Now living in
                         the Olympia, Washington region and confident in his abilities to provide quality results, he
-                        began his own company known as Dry Zone Waterproofing and Concrete Coatings LLC. </p>
+                        began his own company known as Dry Zone Waterproofing and Concrete Coatings LLC. </p> */}
 
                     <h1>Mission</h1>
                     <p>Big or small jobs, Dry Zone LLC promises to deliver lasting quality results with particular attention to detail.
                         Our goal is to make sure you're happy and satisfied with our services. We strive for excellence and pride
-                        ourselves in our work!  </p>
+                        ourselves in our work!
+                        <br></br>
+
+                        We offer 22 years of experience using the latest products and up-to-date practices. We've overcome
+                        various on-the-job challenges with innovative solutions, determined to keep the smiles on our client's faces. 
+                    </p>
 
 
                 </div>

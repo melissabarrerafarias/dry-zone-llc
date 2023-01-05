@@ -1,18 +1,12 @@
 import React from 'react';
 import '../homepage.css';
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
-// import rainDropImg from '../assets/images/water-drops.jpg'
 import constructionWorker from '../assets/images/construction-worker.jpg';
 
 function Homepage() {
     return (
         <main id="homepage-main">
-            {/* <div className="hero">
-                <img src={rainDropImg} className="hero-img"></img>
-            </div> */}
-            {/* hero */}
             <div class="bg-img">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg">
@@ -52,7 +46,7 @@ function Homepage() {
                     <h1>What We Do</h1>
                     <div className="do-expln">
                         <p>The name says it all! Dry Zone Waterproofing & Concrete Coatings LLC specializes in just that.
-                            Though we aren't waterbenders, we have a few tricks up our sleeve to protect your home or help you
+                            We have more than a few tricks up our sleeve to protect your home or help you
                             spruce it up! Some examples of what we could do for you are:
                         </p>
                     </div>
@@ -103,8 +97,8 @@ function Homepage() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="contact-area">
-                            <form action="https://formsubmit.co/melissikiss@gmail.com" method="POST">
-                                <p>Have a project in mind? Describe what you need and I'll get back to you.</p>
+                            <form action="https://formsubmit.co/silverio@dzwcc.com" method="POST">
+                                <p>Have a project in mind? Describe what you need and we'll get back to you.</p>
                                 <div class="input-group input-group-sm mb-3">
                                     <input type="text" name="name" placeholder="Full Name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
@@ -115,7 +109,7 @@ function Homepage() {
                                     <textarea type="text" name="description" placeholder="Project Description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                                 </div>
 
-                                <input type='hidden' name="_next" value="http://localhost:3000/confirm" /> {/* needs to be changed to actual domain */}
+                                <input type='hidden' name="_next" value="http://dzwcc.com/confirm" /> {/* needs to be changed to actual domain */}
                                 <input type="hidden" name="_captcha" value="false" />
                                 <div className="submit-button">
                                 <button type="submit" class="btn btn-primary">Submit</button>

@@ -28,3 +28,15 @@
     font-family: 'Kanit', sans-serif;
     letter-spacing: 1.5px;
 }
+
+
+
+@media (max-width: 767px) {
+    .confirmation-text {
+        font-size: 20px;
+    }
+
+    #confirm a {
+        font-size: 15px;
+    }
+}

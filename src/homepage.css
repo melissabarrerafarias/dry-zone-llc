@@ -572,7 +572,7 @@
     }
 
     #what-i-do p {
-        text-align: center;
+        text-align: start;
     }
 
     .quote {
