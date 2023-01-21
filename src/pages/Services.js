@@ -445,7 +445,7 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={fountainImg2} class="d-block w-100" alt="..." />
                                         </div>
-                                        <div class="carousel-item active">
+                                        <div class="carousel-item">
                                             <img src={fountainImg1} class="d-block w-100" alt="..." />
                                         </div>
 

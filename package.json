@@ -1,6 +1,6 @@
 {
   "name": "dry-zone-website",
-  "homepage": "https://dzwcc.com/",
+  "homepage": "http://dzwcc.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

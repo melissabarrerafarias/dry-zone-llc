@@ -2,7 +2,7 @@ import React from 'react';
 import '../homepage.css';
 import Fade from 'react-reveal/Fade';
 
-import constructionWorker from '../assets/images/construction-worker.jpg';
+import homepageImg from '../assets/images/homepage-img.jpg';
 
 function Homepage() {
     return (
@@ -40,7 +40,7 @@ function Homepage() {
             {/* main page */}
             <section id="what-i-do" className="row">
                 <div className="col-md-6 worker-div">
-                    <img src={constructionWorker} className="worker-img"></img>
+                    <img src={homepageImg} className="worker-img"></img>
                 </div>
                 <div className="col-md-6">
                     <h1>What We Do</h1>
@@ -53,8 +53,8 @@ function Homepage() {
                     <div className="do-examples">
                         <ul>
                             <li><span>Epoxy Coatings</span></li>
-                            <li><span>Elegant water features</span></li>
-                            <li><span>Waterproof shower pans</span></li>
+                            <li><span>Water Feature Protection</span></li>
+                            <li><span>Waterproof Shower Pans</span></li>
                         </ul>
                     </div>
                     <div className="read-more">
@@ -122,13 +122,13 @@ function Homepage() {
                         <div className="contact-info">
                             <h2>CALL, TEXT, OR EMAIL</h2>
                             <div className="call">
-                                <a href="tel:390-890-1059">(390) 890-1059</a>
+                                <a href="tel:360-890-1059">(360) 890-1059</a>
                             </div>
                             <div className="email">
                                 <a href="mailto:silverio@dzwcc.com">silverio@dzwcc.com</a>
                             </div>
                             <div className="contact-icons">
-                                <a href="tel:390-890-1059">
+                                <a href="tel:360-890-1059">
                                     <i class="fa-solid fa-phone"></i>
                                 </a>
                                 <a href="mailto:silverio@dzwcc.com">

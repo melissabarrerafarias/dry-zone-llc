@@ -40,11 +40,10 @@ function About() {
                         began his own company known as Dry Zone Waterproofing and Concrete Coatings LLC. </p> */}
 
                     <h1>Mission</h1>
-                    <p>Big or small jobs, Dry Zone LLC promises to deliver lasting quality results with particular attention to detail.
+                    <p> Dry Zone LLC promises to deliver lasting quality results with particular attention to detail.
                         Our goal is to make sure you're happy and satisfied with our services. We strive for excellence and pride
                         ourselves in our work!
-                        <br></br>
-
+                        <br className='pt-5'></br>
                         We offer 22 years of experience using the latest products and up-to-date practices. We've overcome
                         various on-the-job challenges with innovative solutions, determined to keep the smiles on our client's faces. 
                     </p>
