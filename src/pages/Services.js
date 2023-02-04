@@ -14,6 +14,8 @@ import windowAndDoorOpeningsImg2 from '../assets/images/services-images/windowAn
 import windowAndDoorPansImg from '../assets/images/services-images/windowanddoorpans-img.jpg';
 import windowAndDoorPansImg2 from '../assets/images/services-images/windowanddoorpans-img2.jpg';
 import windowAndDoorPansImg3 from '../assets/images/services-images/windowanddoorpans-img3.jpg';
+import windowAndDoorPansImg4 from '../assets/images/services-images/newDoorPanImg1.jpg'; 
+import windowAndDoorPansImg5 from '../assets/images/services-images/newDoorPanImg2.JPG'; 
 
 import retainingWallsImg from '../assets/images/services-images/retaining-walls-img.jpg';
 import retainingWallsImg2 from '../assets/images/services-images/retaining-walls-img2.jpg';
@@ -156,15 +158,9 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Even in mild climates, drafty windows and doors can be extremely problematic.
-                                        Proper weatherproofing can minimize unnecessary energy consumption and environmental
-                                        stress, and contribute to the improved health and happiness of occupants.
-                                        Common signs that your home or building needs weatherproofing:
-                                        <ul>
-                                            <li>Drafts around closed windows or doors</li>
-                                            <li>Gaps around window or door trim</li>
-                                            <li>Moisture, insects and dust find their way in through holes and gaps around windows or doors</li>
-                                        </ul>
+                                    In all weathers scenarios, most windows and doors can be problematic. 
+                                    Correct weatherproofing can minimize energy consumption and ecological stress,
+                                     also contribute to the health and wellingbeing of occupants. 
                                     </p>
                                 </div>
                             </Fade>
@@ -188,6 +184,12 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={windowAndDoorPansImg3} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={windowAndDoorPansImg4} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={windowAndDoorPansImg5} class="d-block w-100" alt="..." />
+                                        </div>
 
 
                                     </div>
@@ -204,11 +206,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Sill pan flashing is critical in preventing water intrusion. The inclusion of sill pan flashings is
-                                        becoming a standard practice with window and door manufacturers and installers, Pan flashings have
-                                        upturned legs at the interior edge and ends of the rough opening to form a three-sided pan. They are
-                                        intended to collect and drain water toward the exterior, including water that may enter through
-                                        the window or door unit.
+                                    Door Pans are critical in preventing water intrusion. Installing pans is becoming a standard practice with window,
+                                     door manufacturers, installers, the upturned legs at the interior edge, and ends of the rough opening 
+                                     form a three-sided pan. The intention is to collect and drain water toward the exterior, including water 
+                                     that may enter through the window or door unit.
                                     </p>
                                 </div>
                             </Fade>
@@ -256,12 +257,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Wet and damp basements lead to diminished property values form the loss of
-                                        potential storage, and living space, for both homeowners and business owners.
-                                        Those wet conditions also give cause for a host of health concerns, which are
-                                        associated with wet damp crawl spaces and basements. Homeowners and business
-                                        owners benefit from waterproofing their basements and crawl spaces by protecting
-                                        their home, their health, and to retain the value of their home or business.
+                                    Wet and damp basements lead to reduced property value, potential storage, and living 
+                                    spaces for homeowners. The wet conditions also cause health concerns associated with 
+                                    wet environments. Proper waterproofing of basements and crawl spaces are necessary
+                                     to protect your home, health, and retain the value of your investment. 
                                     </p>
                                 </div>
                             </Fade>
