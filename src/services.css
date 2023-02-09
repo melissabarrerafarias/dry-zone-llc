@@ -188,7 +188,7 @@
 }
 
 #mudsill-srvs img {
-    max-width: 80%;
+    max-width: 100%;
 }
 
 #planters-srvs img {
@@ -271,11 +271,6 @@
 @media (max-width: 1300px) {
     .carousel-item {
         max-height: 350px;
-    }
-
-    #mudsill-srvs img {
-        max-width: 80%;
-        height: 250px;
     }
     
     #planters-srvs img {
@@ -364,12 +359,12 @@
         padding: 20px;
     }
 
-    #mudsill-srvs img,
+    /* #mudsill-srvs img, */
     #planters-srvs img {
         max-width: 50%;
     }
 
-    #mudsill-srvs div,
+    /* #mudsill-srvs div, */
     #planters-srvs div {
         display: flex;
         justify-content: center;
@@ -441,7 +436,7 @@
         padding: 5px
     }
 
-    #mudsill-srvs img,
+    /* #mudsill-srvs img, */
     #planters-srvs img {
         max-width: 70%;
     }

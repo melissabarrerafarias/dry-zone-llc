@@ -14,8 +14,8 @@ import windowAndDoorOpeningsImg2 from '../assets/images/services-images/windowAn
 import windowAndDoorPansImg from '../assets/images/services-images/windowanddoorpans-img.jpg';
 import windowAndDoorPansImg2 from '../assets/images/services-images/windowanddoorpans-img2.jpg';
 import windowAndDoorPansImg3 from '../assets/images/services-images/windowanddoorpans-img3.jpg';
-import windowAndDoorPansImg4 from '../assets/images/services-images/newDoorPanImg1.jpg'; 
-import windowAndDoorPansImg5 from '../assets/images/services-images/newDoorPanImg2.JPG'; 
+import windowAndDoorPansImg4 from '../assets/images/services-images/newDoorPanImg1.jpg';
+import windowAndDoorPansImg5 from '../assets/images/services-images/newDoorPanImg2.JPG';
 
 import retainingWallsImg from '../assets/images/services-images/retaining-walls-img.jpg';
 import retainingWallsImg2 from '../assets/images/services-images/retaining-walls-img2.jpg';
@@ -26,20 +26,26 @@ import decksImg1 from '../assets/images/services-images/decks-srvs-img1.jpg';
 import decksImg2 from '../assets/images/services-images/decks-srvs-img2.jpg';
 import decksImg3 from '../assets/images/services-images/decks-srvs-img3.jpg';
 import decksImg4 from '../assets/images/services-images/decks-srvs-img4.jpg';
+import decksImg5 from '../assets/images/services-images/decksImg5.jpg';
 
 
 import mudsillImg from '../assets/images/services-images/mudsill-img.jpg';
+import mudsillImg2 from '../assets/images/services-images/mudsill2.jpg';
+import mudsillImg3 from '../assets/images/services-images/mudsill3.jpg';
 
 import planterImg from '../assets/images/services-images/planters-img.jpg';
 
 import showerPansImg1 from '../assets/images/services-images/showerpans-img.jpg';
 import showerPansImg2 from '../assets/images/services-images/showerpans-img2.jpg';
 import showerPansImg3 from '../assets/images/services-images/showerpans-img3.jpg';
+import showerPansImg4 from '../assets/images/services-images/showerPans4.jpg';
 
 
-import liquidAppliedFlashImg from '../assets/images/services-images/liquidAppliedFlash-img.jpg';
+import liquidAppliedFlashImg from '../assets/images/services-images/liquidApplied1.jpg';
 import liquidAppliedFlashImg2 from '../assets/images/services-images/liquidAppliedFlash-img2.jpg';
 import liquidAppliedFlashImg3 from '../assets/images/services-images/liquidAppliedFlash-img3.jpg';
+import liquidAppliedFlashImg4 from '../assets/images/services-images/liquidApplied4.jpg';
+
 
 
 import basementImage1 from '../assets/images/services-images/basementimg1.jpg';
@@ -48,6 +54,7 @@ import basementImage3 from '../assets/images/services-images/basementimg3.jpg';
 import basementImage4 from '../assets/images/services-images/basementimg4.jpg';
 import basementImage5 from '../assets/images/services-images/basementimg5.jpg';
 import basementImage6 from '../assets/images/services-images/basementimg6.jpg';
+import basementImage7 from '../assets/images/services-images/basementImg7.JPEG';
 
 import fountainImg1 from '../assets/images/services-images/water-features-img9.jpg';
 import fountainImg2 from '../assets/images/services-images/water-features-img3.jpg';
@@ -57,19 +64,25 @@ import fountainImg5 from '../assets/images/services-images/water-features-img7.j
 import fountainImg6 from '../assets/images/services-images/water-features-img8.jpg';
 
 import architecturalCaulkingImg1 from '../assets/images/services-images/architectural-caulking-img1.jpg';
-import architecturalCaulkingImg2 from '../assets/images/services-images/architectural-caulking-img3.jpg';
+// import architecturalCaulkingImg2 from '../assets/images/services-images/architectural-caulking-img3.jpg';
+import architecturalCaulkingImg3 from '../assets/images/services-images/AC2.jpg';
 
 import waterResistantBarrierImg from '../assets/images/services-images/water-resistant-barrier-img.jpg';
 import waterResistantBarrierImg3 from '../assets/images/services-images/water-resistant-barrier-img3.jpg';
-import waterResistantBarrierImg4 from '../assets/images/services-images/water-resistant-barrier-img4.jpg';
+import waterResistantBarrierImg4 from '../assets/images/services-images/water-resistant-barrier-img5.jpg';
+import waterResistantBarrierImg6 from '../assets/images/services-images/weather-barriers-6.jpg';
+
 
 
 import epoxyCoatingsImg from '../assets/images/services-images/epoxy-coatings-img.jpg';
 import epoxyCoatingsImg2 from '../assets/images/services-images/epoxy-coatings-img2.jpg';
 import epoxyCoatingsImg3 from '../assets/images/services-images/epoxy-coatings-img3.jpg';
+import epoxyCoatingsImg4 from '../assets/images/services-images/epoxy4.jpg';
+import epoxyCoatingsImg5 from '../assets/images/services-images/epoxy5.jpg';
 
 import injectionsImg1 from '../assets/images/services-images/injections-img1.jpg';
 import injectionsImg2 from '../assets/images/services-images/injections-img2.jpg';
+import injectionsImg3 from '../assets/images/services-images/crackRepairs3.jpg'; 
 
 
 
@@ -95,7 +108,7 @@ function Services() {
                         <area shape="circle" coords="670, 250, 20" alt="architecturalCaulking" href="#architecturalCaulking-srvs" />
                         <area shape="circle" coords="835, 271, 20" alt="weatherResistantBarrier" href="#waterResistantBarriers-srvs" />
                         <area shape="circle" coords="610, 437, 20" alt="mudsillWaterproofing" href="#mudsill-srvs" />
-                        <area shape="circle" coords="850, 463, 20" alt="epoxyFloors" href="#epoxyCoatings-srvs"/>
+                        <area shape="circle" coords="850, 463, 20" alt="epoxyFloors" href="#epoxyCoatings-srvs" />
                         <area shape="circle" coords="550, 570, 20" alt="showerPansAndWalls" href="#showerpans-srvs" />
                         <area shape="circle" coords="550, 640, 20" alt="crackRepairAndInjections" href="#crackRepairsAndInjections-srvs" />
                         <area shape="circle" coords="233, 650, 20" alt="basementWaterproofing" href="#basement-waterproofing-srvs" />
@@ -120,7 +133,7 @@ function Services() {
                             <li><a href="#fountainandwaterfeatures-srvs">Fountains & Water Features</a></li>
                             <li><a href="#showerpans-srvs">Shower Pans</a></li>
                             <li><a href="#architecturalCaulking-srvs">Architectural Caulking</a></li>
-                            <li><a href="#waterResistantBarriers-srvs">Water Resistant Barriers</a></li>
+                            <li><a href="#weatherResistantBarriers-srvs">Weather Resistant Barriers</a></li>
                             <li><a href="#epoxyCoatings-srvs">Epoxy Coatings</a></li>
                             <li><a href="#liquidAppliedFlashings-srvs">Liquid Applied Flashings</a></li>
                             <li><a href="#crackRepairsAndInjections-srvs">Crack Repairs & Injections</a></li>
@@ -158,9 +171,9 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                    In all weathers scenarios, most windows and doors can be problematic. 
-                                    Correct weatherproofing can minimize energy consumption and ecological stress,
-                                     also contribute to the health and wellingbeing of occupants. 
+                                        In all weathers scenarios, most windows and doors can be problematic.
+                                        Correct weatherproofing can minimize energy consumption and ecological stress,
+                                        also contribute to the health and wellingbeing of occupants.
                                     </p>
                                 </div>
                             </Fade>
@@ -206,10 +219,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                    Door Pans are critical in preventing water intrusion. Installing pans is becoming a standard practice with window,
-                                     door manufacturers, installers, the upturned legs at the interior edge, and ends of the rough opening 
-                                     form a three-sided pan. The intention is to collect and drain water toward the exterior, including water 
-                                     that may enter through the window or door unit.
+                                        Door Pans are critical in preventing water intrusion. Installing pans is becoming a standard practice with window,
+                                        door manufacturers, installers, the upturned legs at the interior edge, and ends of the rough opening
+                                        form a three-sided pan. The intention is to collect and drain water toward the exterior, including water
+                                        that may enter through the window or door unit.
                                     </p>
                                 </div>
                             </Fade>
@@ -242,6 +255,9 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={basementImage6} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={basementImage7} class="d-block w-100" alt="..." />
+                                        </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls3" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -257,10 +273,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                    Wet and damp basements lead to reduced property value, potential storage, and living 
-                                    spaces for homeowners. The wet conditions also cause health concerns associated with 
-                                    wet environments. Proper waterproofing of basements and crawl spaces are necessary
-                                     to protect your home, health, and retain the value of your investment. 
+                                        Wet and damp basements lead to reduced property value, potential storage, and living
+                                        spaces for homeowners. The wet conditions also cause health concerns associated with
+                                        wet environments. Proper waterproofing of basements and crawl spaces are necessary
+                                        to protect your home, health, and retain the value of your investment.
                                     </p>
                                 </div>
                             </Fade>
@@ -302,11 +318,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Retaining Wall Waterproofing or Post-Applied Waterproofing is
-                                        installed because underground Liquid water, harmful contaminated
-                                        gas vapors, or water moisture can remain and seep through subterranean
-                                        or hillside walls. Water moisture can evaporate on the dry side of the
-                                        wall and leave mildew or efflorescence  and damage finishes and the structure itself.
+                                        Retaining Wall Waterproofing protects from moisture or liquid water that
+                                        can remain and seep through subterranean or hillside walls. Water moisture can
+                                        easily evaporate on the interior dry side of the wall and leave mildew or
+                                        efflorescence, likely damaging interiors and the structure itself.
                                     </p>
                                 </div>
                             </Fade>
@@ -333,6 +348,9 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={decksImg4} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={decksImg5} class="d-block w-100" alt="..." />
+                                        </div>
 
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls5" data-bs-slide="prev">
@@ -349,15 +367,12 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        If you have a deck or balcony attached to your home, you know it is an
-                                        awesome way to enjoy the outdoors indoors. But in The PNW you also know
-                                        that our local weather can do a lot of damage. Something simple you can
-                                        do to help  reduce or even eliminate damage to your deck is giving it
-                                        a professional waterproof coating. When a deck is not waterproofed, water
-                                        may drip through cracks or other surface, which may inevitably decay the
-                                        surrounding area. In the long run, this will be quite costly to fix. In
-                                        order to avoid this, and to keep your deck in the best shape, waterproofing
-                                        is key.
+                                        If you have a deck or balcony at home,  it’s an awesome way to enjoy the outdoors indoors!
+                                        But, in the PNW, the weather can do a lot of damage to these exterior extensions of your
+                                        living space. Something simple you can do to prevent damage to them is giving it a professional
+                                        waterproof coating.  Without it, water may drip through cracks, joints, or other surfaces…
+                                        eventually decaying the surrounding area. This will be extremely costly to fix. To keep your
+                                        deck in the best shape, properly applied waterproofing is key.
                                     </p>
                                 </div>
                             </Fade>
@@ -369,29 +384,47 @@ function Services() {
                     <div id="mudsill-srvs">
                         <h2>Mudsill Waterproofing</h2>
                         <div className='row mt-5'>
-                            <div className='col-md-6 services-detail-left'>
-                                <Fade left>
-                                    <img src={mudsillImg}></img>
-                                </Fade>
+                            <div className="col-md-12 d-flex justify-content-center">
+                                <div id="carouselControlsMudsill" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src={mudsillImg} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={mudsillImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={mudsillImg3} class="d-block w-100" alt="..." />
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsMudsill" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsMudsill" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
-                            <Fade right>
-                                <div className='col-md-6 services-detail-right'>
+
+                            <Fade bottom>
+                                <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Sometimes, contractors will construct a home with the sill plate close to the
-                                        adjacent grade. Making matters worse, landscapers commonly raise the grounds
-                                        around a structure with mulch and planting beds. Occasionally, people will
-                                        also make the horrendous mistake of trying to correct basement leaks by adding
-                                        soil around their house to create a pitch.
-                                        <br></br>
-                                        By doing this, they bring the soil closer to the wood sill plate. If the wood
-                                        structure comes in contact with the soil, rot and termite infestation may develop.
-                                        At this point, if the bottom of the house is not restored with sill plate
-                                        waterproofing, structural failure can ensue.
+                                        Sometimes, sill plates are constructed close to the adjacent grade.
+                                        Landscapers raise the grounds around with beautiful irrigated gardens,
+                                        bringing the soil closer to the wood sill plate. If the wood structure
+                                        comes in contact with the soil, then the bottom of the house is compromised.
+                                        Not having mudsills properly waterproofed lead to structural failure.
                                     </p>
                                 </div>
                             </Fade>
                         </div>
                     </div>
+
+
+
 
                     {/* /////////////////////////////// Planters Services */}
                     <div id="planters-srvs">
@@ -405,15 +438,13 @@ function Services() {
                             <Fade right>
                                 <div className='col-md-6 services-detail-right'>
                                     <p>
-                                        The presence of concrete planter boxes can spruce up almost any garden or yard and
-                                        is a great structure to house and contain your plants. How you are sealing or
-                                        waterproofing concrete planter boxes will help to maximize the service life
-                                        of the planter box. Waterproofing your concrete planter box is highly
-                                        recommended to ensure your plants remain healthy. Waterproofing avoids
-                                        the leaching of highly alkaline salts into the soil in the planter.
-                                        The alkalinity of the soil may stunt the growth of some plants.
-                                        Also, some masonry blocks and bricks are very porous and the soil
-                                        may dry out too quickly.
+                                        Building concrete planters can spruce up any garden or yard and is a great
+                                        way to house your plants. How you waterproof concrete planter boxes will
+                                        maximize the service life of the planter box itself. This step is highly
+                                        recommended to keep the aesthetics of the box’s exterior, but most importantly
+                                        to ensure your plants remain healthy by avoiding the leaching of alkaline salts
+                                        into the soil. Additionally, the porosity in the substrates may cause the soil
+                                        to dry out too quickly for the well-being of your plants.
 
                                     </p>
                                 </div>
@@ -439,9 +470,6 @@ function Services() {
                                             <img src={fountainImg4} class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
-                                            <img src={fountainImg3} class="d-block w-100" alt="..." />
-                                        </div>
-                                        <div class="carousel-item">
                                             <img src={fountainImg2} class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
@@ -463,21 +491,14 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Commonly a centerpiece of pedestrian plazas and architectural hardscapes
-                                        on commercial properties, water features can greatly enhance the aesthetics
-                                        and atmosphere of the areas in which they are used.  They do, however,
-                                        present unique challenges that must be effectively managed in order to
-                                        ensure that these otherwise pleasing property enhancements do not become
-                                        a detracting feature of the property.  If not properly maintained,
-                                        a water feature’s aesthetic qualities can quickly diminish.
-                                        More significantly, it is important that water features
-                                        not be allowed to become a source of unwanted water absorption
-                                        or infiltration.  Not only can these conditions lead to unsightly
-                                        aesthetics in the form of biological growth or deterioration of
-                                        the façade (efflorescence, spalling, or bubbling of coatings),
-                                        but also it can lead to structural deterioration of the water
-                                        feature itself or adjacent areas of the property or structure.
-
+                                        Centerpieces of plazas and architectural hardscapes, water features
+                                        can enhance the aesthetics of the areas in which they are placed.
+                                        However, they present waterproofing challenges that must be effectively
+                                        managed to ensure that these property enhancements don't become detracting
+                                        features. It is important that water features not become sources of water
+                                        absorption or infiltration. These conditions can lead to attractive biological
+                                        growth or deterioration of the outside (efflorescence, spalling, or bubbling of
+                                        coatings), and can also lead to structural deterioration of itself.
                                     </p>
                                 </div>
                             </Fade>
@@ -502,6 +523,9 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={showerPansImg1} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={showerPansImg4} class="d-block w-100" alt="..." />
+                                        </div>
 
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls7" data-bs-slide="prev">
@@ -517,25 +541,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Waterproofing is one of the single most important things that must be done correctly when building,
-                                        renovating or repairing a shower in your home. The waterproof membrane stops moisture and water
-                                        from seeping into the walls or floors. Not having this done correctly can potentially lead to
-                                        tens of thousands of dollars in costs later down the line. Not to mention save you the stress
-                                        of possibly having to rebuild a major part of your home.
-                                        <br></br>
-                                        There are many ways that leaks can appear in your shower if the waterproofing
-                                        is done incorrectly, the shower niche being one major example. A lack of
-                                        waterproof membrane that is not applied properly may cause the following:
-
-                                        <ul>
-                                            <li>Water damage and swelling in walls and floors</li>
-                                            <li>Tiles to become loose, increasing the risk of more leaks</li>
-                                            <li>Structural damage to the home</li>
-                                        </ul>
-                                        All of these issues can arise at any time, even if your shower is brand new.
-                                        These waterproofing mistakes can cost you tens of thousands of dollars in home repairs,
-                                        especially if you are unaware of the leak for a long time. Therefore, it is extremely
-                                        important that you ensure that your shower is waterproofed correctly.
+                                        When building, renovating or repairing a shower in your home, waterproofing is one of the most important
+                                        things that must be done correctly. Waterproofing membranes prevent moisture and water from leaking into
+                                        the walls or floors. Unprotected substrates can eventually lead to thousands of dollars in repairs from
+                                        having to rebuild a major and essential part of your home.
                                     </p>
                                 </div>
                             </Fade>
@@ -555,7 +564,7 @@ function Services() {
                                             <img src={architecturalCaulkingImg1} class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
-                                            <img src={architecturalCaulkingImg2} class="d-block w-100" alt="..." />
+                                            <img src={architecturalCaulkingImg3} class="d-block w-100" alt="..." />
                                         </div>
 
                                     </div>
@@ -572,12 +581,11 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Architectural sealants are applied to the exterior of a building to prevent
-                                        any outside elements from entering the structure. Architectural sealants must
-                                        be able to maintain an impassible seal while also being movable between similar
-                                        and different substrates. These architectural sealants must also be resistant
-                                        to deterioration due to rain, ultraviolet light and any other elements to
-                                        maintain an appealing appearance over time.
+                                        Architectural sealants prevent outside elements from entering the structure. These must be able
+                                        to maintain a seal while also being movable between similar and different substrates. Architectural
+                                        sealants must also be resistant to deterioration due to rain, ultraviolet light and any other elements
+                                        to maintain an appealing appearance over time. However, the purpose of sealants are not to be a main
+                                        waterproof barrier but to contribute-prevent and add to the aesthetics.
                                     </p>
                                 </div>
                             </Fade>
@@ -585,8 +593,8 @@ function Services() {
                     </div>
 
                     {/* ///////////////////////////////// Water Resistant Barriers  */}
-                    <div id="waterResistantBarriers-srvs">
-                        <h2>Water Resistant Barriers</h2>
+                    <div id="weatherResistantBarriers-srvs">
+                        <h2>Weather Resistant Barriers</h2>
                         <div className='row mt-5'>
                             {/* /////////////carousel */}
                             <div className="col-md-12 d-flex justify-content-center">
@@ -600,6 +608,9 @@ function Services() {
                                         </div>
                                         <div class="carousel-item">
                                             <img src={waterResistantBarrierImg4} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={waterResistantBarrierImg6} class="d-block w-100" alt="..." />
                                         </div>
 
                                     </div>
@@ -616,12 +627,11 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Weather-resistant barriers play a crucial role in the protection and energy-efficiency
-                                        of today’s commercial buildings. Weather-resistant barriers can both protect a
-                                        structure’s walls from air and water infiltration and keep moisture from accumulating
-                                        in the wall systems. High quality weather-resistant barriers are not only
-                                        air-resistant, but also prevent moisture and vapor. This can ensure that
-                                        a building remains energy-efficient and protected.
+                                        Weather Resistant barriers are crucial  in the protection and energy efficiency of today’s
+                                        buildings. They can protect a structure’s walls from air and water infiltration and keep
+                                        moisture from accumulating in the wall systems. Good quality weather resistant barriers
+                                        are not only cold/hot air resistant, but also prevent moisture and vapor, ensuring that
+                                        a building remains energy efficient and protected.
                                     </p>
                                 </div>
                             </Fade>
@@ -646,6 +656,14 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={epoxyCoatingsImg3} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={epoxyCoatingsImg4} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={epoxyCoatingsImg5} class="d-block w-100" alt="..." />
+                                        </div>
+
+
 
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls10" data-bs-slide="prev">
@@ -661,13 +679,11 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        The floors are one of the most important, yet often discounted, elements of any residential
-                                        space. Not only that the floors add an aesthetic element to your area, these also ensure
-                                        your safety and improve the productivity of your day-to-day tasks. As such, it is a must
-                                        that you opt for a flooring solution that can withstand the hustle and bustle of your
-                                        space’s daily activities. One of the sought after flooring solutions is epoxy flooring.
-                                        This incredible surface gives tons of benefits, which is why more people are switching
-                                        to Epoxy Floor Coatings. Which are durable, easy to maintain, unique and impressive!
+                                        Floors are one of the most important, yet often dismissed features of any residential space.
+                                        Your floors can add an artistic element to your area, ensure your safety, and improve the
+                                        productivity of your day to day life. For those reasons, opting for a flooring solution that
+                                        can resist the business of your space’s daily routines is crucial. Epoxy floor surfaces give
+                                        tons of benefits! They are durable, easy to maintain, distinctive and impressive!
                                     </p>
                                 </div>
                             </Fade>
@@ -691,6 +707,9 @@ function Services() {
                                         <div class="carousel-item">
                                             <img src={liquidAppliedFlashImg3} class="d-block w-100" alt="..." />
                                         </div>
+                                        <div class="carousel-item">
+                                            <img src={liquidAppliedFlashImg4} class="d-block w-100" alt="..." />
+                                        </div>
 
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls11" data-bs-slide="prev">
@@ -706,12 +725,10 @@ function Services() {
                             <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
-                                        Homeowners want energy-efficient, durable, and healthy homes with low utility,
-                                        maintenance, and repair costs. Achieving this requires a tight building envelope
-                                        that keeps out air and moisture. Liquid-applied flashings will contribute
-                                        significantly towards achieving an air- and moisture-tight house by
-                                        filling all the voids and cracks around windows, doors, and other
-                                        exterior penetrations.
+                                        Energy efficient, durable, and healthy homes with low utility, maintenance, and repair costs require a tight building envelope
+                                        that keeps out air and moisture. Liquid applied flashings will contribute significantly towards achieving an air
+                                        and moisture tight house by properly filling and sealing all the voids and cracks around windows, doors, concrete
+                                        to wood transitions and other exterior penetrations.
                                     </p>
                                 </div>
                             </Fade>
@@ -720,7 +737,7 @@ function Services() {
 
                     {/* //////////////////////////// Crack Repairs/Injections  */}
                     <div id="crackRepairsAndInjections-srvs">
-                        <h2>Crack Repair / Injections</h2>
+                        <h2>Crack Repairs Cold Joint Injections/Sealing, WaterStops and Pipe Penetrations</h2>
                         <div className='row mt-5'>
                             {/* /////////////carousel */}
                             <div className="col-md-13 d-flex justify-content-center">
@@ -731,6 +748,9 @@ function Services() {
                                         </div>
                                         <div class="carousel-item">
                                             <img src={injectionsImg2} class="d-block w-100" alt="..." />
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src={injectionsImg3} class="d-block w-100" alt="..." />
                                         </div>
 
                                     </div>
@@ -744,7 +764,7 @@ function Services() {
                                     </button>
                                 </div>
                             </div>
-                            <Fade bottom>
+                            {/* <Fade bottom>
                                 <div className='col-md-12 d-flex justify-content-center srvs-center-description'>
                                     <p>
                                         Foundation issues can detract from your enjoyment of your home and can even reduce its value over time.
@@ -756,7 +776,7 @@ function Services() {
                                         family.
                                     </p>
                                 </div>
-                            </Fade>
+                            </Fade> */}
                         </div>
                     </div>
                     <a href="#services-nav" className="back-to-top">
@@ -824,7 +844,7 @@ function Services() {
                 </div> */}
 
 
-                
+
                 {/* <div class="modal fade" id="doorPansModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
